@@ -41,5 +41,6 @@ In this course, we will learn:
 - [Assignment 01](assignment01.pdf)
 - [Quiz 01](quiz01.pdf)
 - [Quiz 01 Solution](quiz01_sol.pdf)
+- [Practice problems for Midterm](Updated_problems)
 
 ---
