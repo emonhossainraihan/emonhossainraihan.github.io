@@ -74,6 +74,8 @@ consequat."
               url: archive/
             - name: Blog
               url: https://medium.com/@emonhossainraihan
+            - name: About
+              url: about/ 
 
     socialIcons:
         - name: Email

@@ -2,71 +2,89 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Emon Hossain</title>
-    <link>https://pascalmichaillat.org/hugo-website/tags/</link>
+    <link>http://localhost:1313/hugo-website/tags/</link>
     <description>Recent content in Tags on Emon Hossain</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 30 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://pascalmichaillat.org/hugo-website/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 30 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/hugo-website/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Fourier Analysis</title>
-      <link>https://pascalmichaillat.org/hugo-website/tags/fourier-analysis/</link>
+      <title>About</title>
+      <link>http://localhost:1313/hugo-website/tags/about/</link>
       <pubDate>Thu, 30 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://pascalmichaillat.org/hugo-website/tags/fourier-analysis/</guid>
+      <guid>http://localhost:1313/hugo-website/tags/about/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Emon Hossain</title>
+      <link>http://localhost:1313/hugo-website/tags/emon-hossain/</link>
+      <pubDate>Thu, 30 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hugo-website/tags/emon-hossain/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fourier Analysis</title>
+      <link>http://localhost:1313/hugo-website/tags/fourier-analysis/</link>
+      <pubDate>Thu, 30 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hugo-website/tags/fourier-analysis/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Linear Algebra</title>
-      <link>https://pascalmichaillat.org/hugo-website/tags/linear-algebra/</link>
+      <link>http://localhost:1313/hugo-website/tags/linear-algebra/</link>
       <pubDate>Thu, 30 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://pascalmichaillat.org/hugo-website/tags/linear-algebra/</guid>
+      <guid>http://localhost:1313/hugo-website/tags/linear-algebra/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Teaching</title>
-      <link>https://pascalmichaillat.org/hugo-website/tags/teaching/</link>
+      <link>http://localhost:1313/hugo-website/tags/teaching/</link>
       <pubDate>Thu, 30 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://pascalmichaillat.org/hugo-website/tags/teaching/</guid>
+      <guid>http://localhost:1313/hugo-website/tags/teaching/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Chaotic Map</title>
-      <link>https://pascalmichaillat.org/hugo-website/tags/chaotic-map/</link>
+      <link>http://localhost:1313/hugo-website/tags/chaotic-map/</link>
       <pubDate>Sun, 17 Jul 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://pascalmichaillat.org/hugo-website/tags/chaotic-map/</guid>
+      <guid>http://localhost:1313/hugo-website/tags/chaotic-map/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cryptography</title>
-      <link>https://pascalmichaillat.org/hugo-website/tags/cryptography/</link>
+      <link>http://localhost:1313/hugo-website/tags/cryptography/</link>
       <pubDate>Sun, 17 Jul 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://pascalmichaillat.org/hugo-website/tags/cryptography/</guid>
+      <guid>http://localhost:1313/hugo-website/tags/cryptography/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Encryption</title>
-      <link>https://pascalmichaillat.org/hugo-website/tags/encryption/</link>
+      <link>http://localhost:1313/hugo-website/tags/encryption/</link>
       <pubDate>Sun, 17 Jul 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://pascalmichaillat.org/hugo-website/tags/encryption/</guid>
+      <guid>http://localhost:1313/hugo-website/tags/encryption/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Romance Languages</title>
-      <link>https://pascalmichaillat.org/hugo-website/tags/romance-languages/</link>
+      <link>http://localhost:1313/hugo-website/tags/romance-languages/</link>
       <pubDate>Thu, 07 Mar 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://pascalmichaillat.org/hugo-website/tags/romance-languages/</guid>
+      <guid>http://localhost:1313/hugo-website/tags/romance-languages/</guid>
       <description></description>
     </item>
     

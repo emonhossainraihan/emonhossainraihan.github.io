@@ -2,59 +2,68 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://pascalmichaillat.org/hugo-website/teaching/</loc>
+    <loc>http://localhost:1313/hugo-website/tags/about/</loc>
     <lastmod>2024-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pascalmichaillat.org/hugo-website/</loc>
+    <loc>http://localhost:1313/hugo-website/about/</loc>
     <lastmod>2024-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pascalmichaillat.org/hugo-website/tags/fourier-analysis/</loc>
+    <loc>http://localhost:1313/hugo-website/teaching/</loc>
     <lastmod>2024-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pascalmichaillat.org/hugo-website/tags/linear-algebra/</loc>
+    <loc>http://localhost:1313/hugo-website/</loc>
     <lastmod>2024-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pascalmichaillat.org/hugo-website/teaching/mat216/</loc>
+    <loc>http://localhost:1313/hugo-website/tags/emon-hossain/</loc>
     <lastmod>2024-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pascalmichaillat.org/hugo-website/tags/</loc>
+    <loc>http://localhost:1313/hugo-website/tags/fourier-analysis/</loc>
     <lastmod>2024-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pascalmichaillat.org/hugo-website/tags/teaching/</loc>
+    <loc>http://localhost:1313/hugo-website/tags/linear-algebra/</loc>
     <lastmod>2024-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pascalmichaillat.org/hugo-website/location/</loc>
+    <loc>http://localhost:1313/hugo-website/teaching/mat216/</loc>
     <lastmod>2024-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pascalmichaillat.org/hugo-website/officehours/</loc>
+    <loc>http://localhost:1313/hugo-website/tags/</loc>
     <lastmod>2024-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pascalmichaillat.org/hugo-website/papers/paper1/</loc>
+    <loc>http://localhost:1313/hugo-website/tags/teaching/</loc>
     <lastmod>2024-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pascalmichaillat.org/hugo-website/tags/chaotic-map/</loc>
+    <loc>http://localhost:1313/hugo-website/location/</loc>
     <lastmod>2024-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pascalmichaillat.org/hugo-website/tags/cryptography/</loc>
+    <loc>http://localhost:1313/hugo-website/officehours/</loc>
     <lastmod>2024-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pascalmichaillat.org/hugo-website/tags/encryption/</loc>
+    <loc>http://localhost:1313/hugo-website/papers/paper1/</loc>
     <lastmod>2024-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pascalmichaillat.org/hugo-website/papers/</loc>
+    <loc>http://localhost:1313/hugo-website/tags/chaotic-map/</loc>
     <lastmod>2024-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pascalmichaillat.org/hugo-website/data/data1/</loc>
+    <loc>http://localhost:1313/hugo-website/tags/cryptography/</loc>
     <lastmod>2024-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pascalmichaillat.org/hugo-website/data/</loc>
+    <loc>http://localhost:1313/hugo-website/tags/encryption/</loc>
     <lastmod>2024-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pascalmichaillat.org/hugo-website/tags/romance-languages/</loc>
+    <loc>http://localhost:1313/hugo-website/papers/</loc>
     <lastmod>2024-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pascalmichaillat.org/hugo-website/archive/</loc>
+    <loc>http://localhost:1313/hugo-website/data/data1/</loc>
+    <lastmod>2024-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pascalmichaillat.org/hugo-website/books/</loc>
+    <loc>http://localhost:1313/hugo-website/data/</loc>
+    <lastmod>2024-05-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/hugo-website/tags/romance-languages/</loc>
+    <lastmod>2024-05-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/hugo-website/archive/</loc>
+  </url><url>
+    <loc>http://localhost:1313/hugo-website/books/</loc>
   </url>
 </urlset>
