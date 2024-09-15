@@ -503,6 +503,8 @@ $$
 
 That's it for today. I will write a another blog where we can see how Clifford algebra help us to understand Spinor.
 
+Please let me know if you find any errors at `mdemon7475@gmail.com`.
+
 Some useful links:
 
 - https://math.stackexchange.com/a/37583
