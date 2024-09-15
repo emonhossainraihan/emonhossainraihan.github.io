@@ -17,7 +17,9 @@ showToc: true
 disableAnchoredHeadings: false
 ---
 
-We can convert $3D$-vector into $2\times 2$ Pauli vector using Pauli matrices as a basis. That means for traditional basis $\vec e_1, \vec e_2$ and $\vec e_3$ we choose $\sigma_x, \sigma_y$ and $\sigma_z$. Hence, $V=V^ie_i$ become $V=V^i\sigma_i$ where,
+In this blog, we'll provide a brief introduction to spinors. Don't worry, all you need is a basic understanding of linear algebra—that's it! I may be a bit informal at times, but you know how to Google, right? I'll do my best to keep things simple and clear. To be honest, I only know a little about spinors myself. :3 Let's start!
+
+We can convert a $3D$-vector into $2\times 2$ Pauli vector using Pauli matrices as a basis. That means for traditional basis $\vec e_1, \vec e_2$ and $\vec e_3$ we choose $\sigma_x, \sigma_y$ and $\sigma_z$. Hence, $V=V^ie_i$ become $V=V^i\sigma_i$ where,
 
 \\begin{align*}
 \\sigma_x &= \\begin{bmatrix}
@@ -50,7 +52,7 @@ $$
 \\end{bmatrix}\\rightarrow \\begin{bmatrix}
     z&x-yi\\\x+yi&-z
 \\end{bmatrix}\rightarrow \\underbrace{\\begin{bmatrix}
-    \\xi_1\\\\xi_2
+    \\xi_1\\\xi_2
 \\end{bmatrix}\\begin{bmatrix}
     -\\xi_2&\\xi_1
 \\end{bmatrix}}_{\\text{Spinors}}
@@ -62,9 +64,9 @@ $$
 \\end{bmatrix}\\rightarrow \\begin{bmatrix}
     ct+z&x-yi\\\x+yi&ct-z
 \\end{bmatrix}\\rightarrow \\underbrace{\\begin{bmatrix}
-    \\psi_1\\\\psi_2
+    \\psi\_1\\ \psi\_2
 \\end{bmatrix}\\begin{bmatrix}
-    -\\psi_2^\*&\\psi_1^\*
+    -\\psi\_2^\*&\\psi\_1^\*
 \\end{bmatrix}}_{\\text{Weyl Spinors}}
 $$
 
@@ -103,7 +105,7 @@ $$
 \\begin{split}
  V&\\rightarrow -\\tau(-\\sigma_x V\\sigma_x)\\tau\\\
  &= \\left(\\cos\\frac{\\theta}{2}\\sigma_x\\sigma_x+\\sin\\frac{\\theta}{2}\\sigma_y\\sigma_x\\right) V \\left(\\cos\\frac{\\theta}{2}\\sigma_x\\sigma_x+\\sin\\frac{\\theta}{2}\\sigma_x\\sigma_y\\right)\\\
- &= \\underbrace{\\left(\\cos\\frac{\\theta}{2}\\mathds{1}-\\sin\\frac{\\theta}{2}\\sigma_x\\sigma_y\\right)}\_{I} V \\underbrace{\\left(\\cos\\frac{\\theta}{2}\\mathds{1}-\\sin\\frac{\\theta}{2}\\sigma_x\\sigma_y\\right)^\\dagger}\_{II}
+ &= \\underbrace{\\left(\\cos\\frac{\\theta}{2}I-\\sin\\frac{\\theta}{2}\\sigma_x\\sigma_y\\right)}\_{(I)} V \\underbrace{\\left(\\cos\\frac{\\theta}{2}I-\\sin\\frac{\\theta}{2}\\sigma_x\\sigma_y\\right)^\\dagger}\_{(II)}
 \\end{split}
 \\end{align}
 $$
@@ -111,7 +113,7 @@ $$
 Writing the first term in matrix notation we get,
 
 \\begin{align*}
-&\\cos\\frac{\\theta}{2}\\mathds{1}-\\sin\\frac{\\theta}{2}\\sigma_x\\sigma_y\\\
+&\\cos\\frac{\\theta}{2}I-\\sin\\frac{\\theta}{2}\\sigma_x\\sigma_y\\\
  &= \\cos\\frac{\\theta}{2}\\begin{bmatrix}
 1&0\\\0&1
 \\end{bmatrix}-\\sin\\frac{\\theta}{2}\\begin{bmatrix}
@@ -128,10 +130,10 @@ e^{-i\\frac{\\theta}{2}}&0\\\0&e^{i\\frac{\\theta}{2}}
 \\end{bmatrix}
 \\end{align*}
 
-Do the same thing for the right term and by combining all expression \ref{rotation_sigma} become:
+Do the same thing for the right term and by combining all expression $(1)$ become:
 
 \\begin{align*}
-&\\left(\\cos\\frac{\\theta}{2}\\mathds{1}-\\sin\\frac{\\theta}{2}\\sigma_x\\sigma_y\\right)V\\left(\\cos\\frac{\\theta}{2}\\mathds{1}-\\sin\\frac{\\theta}{2}\\sigma_x\\sigma_y\\right)^\\dagger\\\
+&\\left(\\cos\\frac{\\theta}{2}I-\\sin\\frac{\\theta}{2}\\sigma_x\\sigma_y\\right)V\\left(\\cos\\frac{\\theta}{2}I-\\sin\\frac{\\theta}{2}\\sigma_x\\sigma_y\\right)^\\dagger\\\
  &=\\begin{bmatrix}
 e^{-i\\frac{\\theta}{2}}&0\\\0&e^{i\\frac{\\theta}{2}}
 \\end{bmatrix} \\begin{bmatrix}
@@ -166,21 +168,21 @@ x\\\y\\\z
 Similiarly, Rotate the Pauli vector by angle $\theta$ in $yz$-plane and $zx$-plane we get:
 
 \\begin{align*}
-V&\\rightarrow\\left(\\cos\\frac{\\theta}{2}\\mathds{1}-\\sin\\frac{\\theta}{2}\\sigma_y\\sigma_z\\right)V\\left(\\cos\\frac{\\theta}{2}\\mathds{1}-\\sin\\frac{\\theta}{2}\\sigma_y\\sigma_z\\right)^\\dagger\\\
- V&\\rightarrow\\left(\\cos\\frac{\\theta}{2}\\mathds{1}-\\sin\\frac{\\theta}{2}\\sigma_z\\sigma_x\\right)V\\left(\\cos\\frac{\\theta}{2}\\mathds{1}-\\sin\\frac{\\theta}{2}\\sigma_z\\sigma_x\\right)^\\dagger
+V&\\rightarrow\\left(\\cos\\frac{\\theta}{2}I-\\sin\\frac{\\theta}{2}\\sigma_y\\sigma_z\\right)V\\left(\\cos\\frac{\\theta}{2}I-\\sin\\frac{\\theta}{2}\\sigma_y\\sigma_z\\right)^\\dagger\\\
+ V&\\rightarrow\\left(\\cos\\frac{\\theta}{2}I-\\sin\\frac{\\theta}{2}\\sigma_z\\sigma_x\\right)V\\left(\\cos\\frac{\\theta}{2}I-\\sin\\frac{\\theta}{2}\\sigma_z\\sigma_x\\right)^\\dagger
 \\end{align*}
 
 And their corresponding matrix expression becomes,
 
 \\begin{align*}
-\\left(\\cos\\frac{\\theta}{2}\\mathds{1}-\\sin\\frac{\\theta}{2}\\sigma_x\\sigma_y\\right)&\\rightarrow
+\\left(\\cos\\frac{\\theta}{2}I-\\sin\\frac{\\theta}{2}\\sigma_x\\sigma_y\\right)&\\rightarrow
 \\begin{bmatrix}
 e^{-i\\frac{\\theta}{2}}&0\\\0&e^{i\\frac{\\theta}{2}}
 \\end{bmatrix} \\\
- \\left(\\cos\\frac{\\theta}{2}\\mathds{1}-\\sin\\frac{\\theta}{2}\\sigma_z\\sigma_x\\right)&\\rightarrow\\begin{bmatrix}
+ \\left(\\cos\\frac{\\theta}{2}I-\\sin\\frac{\\theta}{2}\\sigma_z\\sigma_x\\right)&\\rightarrow\\begin{bmatrix}
 \\cos\\frac{\\theta}{2}&-\\sin\\frac{\\theta}{2}\\\ \\sin\\frac{\\theta}{2}&\\cos\\frac{\\theta}{2}
 \\end{bmatrix}\\\
- \\left(\\cos\\frac{\\theta}{2}\\mathds{1}-\\sin\\frac{\\theta}{2}\\sigma_y\\sigma_z\\right)&\\rightarrow\\begin{bmatrix}
+ \\left(\\cos\\frac{\\theta}{2}I-\\sin\\frac{\\theta}{2}\\sigma_y\\sigma_z\\right)&\\rightarrow\\begin{bmatrix}
 \\cos\\frac{\\theta}{2}&-i\\sin\\frac{\\theta}{2}\\\ i\\sin\\frac{\\theta}{2}&\\cos\\frac{\\theta}{2}
 \\end{bmatrix}
 \\end{align*}
@@ -257,12 +259,12 @@ Finally, the Pauli vector has no trace.
 \\end{split}
 \\end{align}
 
-But $A^\dagger A = k\mathds 1$. We can show that by assuming $A^\dagger A=\\begin{bmatrix}
+But $A^\dagger A = kI$. We can show that by assuming $A^\dagger A=\\begin{bmatrix}
     a&b\\\c&d
 \\end{bmatrix}$ and solving the system of equations $0=\operatorname{tr}(Q\sigma_x)=\operatorname{tr}(Q\sigma_y)=\operatorname{tr}(Q\sigma_z)$ using ?.
 
 \\begin{align*}
-\\det(A^\\dagger A)&= k\\mathds{1}\\\
+\\det(A^\\dagger A)&= kI\\\
  \\det A^\\dagger \\det A &= k^2\\\
  \\implies k&= \\pm 1
 \\end{align*}
@@ -275,7 +277,7 @@ But, $$A^\\dagger A=\\begin{bmatrix}
     \\beta&\\delta
 \\end{bmatrix}=\\begin{bmatrix}
     \\underbrace{\\alpha^\*\\alpha+\\beta^\*\\beta}_{\\geq 0}&\-\\\\-&\-
-    \\end{bmatrix}\\implies A^\\dagger A=\\mathds{1}$$
+    \\end{bmatrix}\\implies A^\\dagger A=I$$
 
 This implies $A^\dagger=A^{-1}$. Altogether we can say, $A\in SU(2)$, that means rotating a Pauli vector we need:
 
@@ -334,10 +336,10 @@ $$
 
 where $a^xi+a^yj+a^zk$ represent the axis of rotation.
 
-**definition**: A spin group $\operatorname{Spin}(n)$ is defined as a double cover of the special orthogonal group $SO(n)$ satisfying some more condition.
+**Definition**: A spin group $\operatorname{Spin}(n)$ is defined as a double cover of the special orthogonal group $SO(n)$ satisfying some more condition.
 $$1\rightarrow\mathbb Z_2\rightarrow\operatorname{Spin}(n)\rightarrow SO(n)\rightarrow 1$$
 
-"A 3D vector can be factored into column and row spinors".
+Okay, Let's justify the following statement, "A 3D vector can be factored into column and row spinors".
 
 We know that most of the time we can factor our matrix into two small matrices. If we factor our Pauli vector into a pair of Pauli Spinors then each Spinor only transforms with a single $SU(2)$ matrix.
 
@@ -455,7 +457,7 @@ $$
 \\end{align*}
 $$
 
-But what if our Pauli vector has $\det V\neq 0$. Then we can't factor it like \ref{factor_sp}.
+But what if our Pauli vector has $\det V\neq 0$. Then we can't factor it like $(3)$.
 
 $$
 \\begin{align*}
