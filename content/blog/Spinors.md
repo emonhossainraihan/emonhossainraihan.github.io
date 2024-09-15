@@ -6,6 +6,10 @@ tags: ["Spinor", "Mathematical-Physics"]
 author: ["Emon Hossain"]
 description: "nobody understands quantum mechanics - feynman"
 summary: "nobody understands quantum mechanics - feynman"
+cover:
+  image: "spinor.png"
+  alt: "What is Spinor"
+  relative: false
 editPost:
   URL: "https://emonhossainraihan.github.io/"
   Text: "GitHub repository"

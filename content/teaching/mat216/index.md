@@ -8,7 +8,7 @@ description: "In this course, we will learn how to solve system of linear equati
 summary: "In this course I try to connect Linear Algebra with its geometrical perspective."
 cover:
   image: "mat216.png"
-  alt: "Villa of Reduced Circumstances"
+  alt: "Linear Algebra and Fourier Analysis"
   relative: false
 editPost:
   URL: "#"
