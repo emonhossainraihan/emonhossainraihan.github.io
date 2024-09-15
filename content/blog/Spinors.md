@@ -42,9 +42,9 @@ Each of these Pauli matrices is trace-less with determinant of $-1$. Some proper
 - Square to identity $(\sigma_i)^2=I_2$
 - Anti-commute $\sigma_i\sigma_j=-\sigma_j\sigma_i,\quad i\neq j$
 
-$(3)+(4)$ can summarize by anti-commutation: $\sigma_i\sigma_j+\sigma_j\sigma_i=\{\sigma_i,\sigma_j\}=2\delta_{ij}$.
+Third and fourth can be summarized by anti-commutation: $\sigma_i\sigma_j+\sigma_j\sigma_i=\\{\sigma_i,\sigma_j\\}=2\delta_{ij}$.
 
-Considering them as a basis can make life easier.
+Considering them as a basis can make life easier because then we can write:
 
 $$
 \\begin{bmatrix}
@@ -52,7 +52,7 @@ $$
 \\end{bmatrix}\\rightarrow \\begin{bmatrix}
     z&x-yi\\\x+yi&-z
 \\end{bmatrix}\rightarrow \\underbrace{\\begin{bmatrix}
-    \\xi_1\\\xi_2
+    \\xi_1\\\ \xi_2
 \\end{bmatrix}\\begin{bmatrix}
     -\\xi_2&\\xi_1
 \\end{bmatrix}}_{\\text{Spinors}}
@@ -64,13 +64,17 @@ $$
 \\end{bmatrix}\\rightarrow \\begin{bmatrix}
     ct+z&x-yi\\\x+yi&ct-z
 \\end{bmatrix}\\rightarrow \\underbrace{\\begin{bmatrix}
-    \\psi\_1\\ \psi\_2
+    \\psi\_1\\\ \psi\_2
 \\end{bmatrix}\\begin{bmatrix}
     -\\psi\_2^\*&\\psi\_1^\*
 \\end{bmatrix}}_{\\text{Weyl Spinors}}
 $$
 
-Let the Pauli vector is defined as: $V=x\sigma_x+y\sigma_y+z\sigma_z$. Because we can represent reflection and rotation easily on this basis. Let's give a try for conjugating the Pauli vector by $\sigma_z$,
+Don't worry, I will explain how we can factor them in terms of Spinors.
+
+Let define the Pauli vector as: $V=x\sigma_x+y\sigma_y+z\sigma_z$. Because we can represent reflection and rotation easily on this basis.
+
+Let's give a try for conjugating the Pauli vector by $\sigma_z$,
 
 \\begin{align*}
 V&\\rightarrow \\sigma_z^{-1} V\\sigma_z\\\
@@ -92,10 +96,11 @@ V&\\rightarrow -\\sigma_z^{-1} V\\sigma_z\\\
 Let's further generalize it to make reflection along unit vector $U$:
 
 \\begin{align*}
-V&\\rightarrow \\sigma_z^{-1} V\\sigma_z\\\
- &=\\sigma_z (x\\sigma_x+y\\sigma_y+z\\sigma_z)\\sigma_z\\\
- &=(x\\sigma_z\\sigma_x\\sigma_z+y\\sigma_z\\sigma_y\\sigma_z+z\\sigma_z\\sigma_z\\sigma_z)\\\
- &=-x\\sigma_x-y\\sigma_y+z\\sigma_z\\\
+V&\\rightarrow -UVU\\\
+ &= - U(V\_{\\|}+V\_{\\perp})U\\\
+ &= -UV\_{\\|}U-UV\_{\\perp}U\\\
+ &= -UkUU+UUV\_{\\perp}\\\
+ &= -Uk+V\_{\\perp}=-V\_{\\|}+V\_{\\perp}
 \\end{align*}
 
 Great! So far so good. But now instead of reflection, we want to represent rotation. And we already knew that, "A rotation is nothing but two reflections". For that, we need two mirrors which will be used in reflections. The angle between them is the half of the rotation. Again, start with some trial. Let's try to rotate the Pauli vector by angle $\theta$ in $xy$-plane. For this, we first reflect along the $x$-axis. And rotate further by another mirror which creates $\theta/2$ angle from the $x$-axis which we denoted by $\tau=\cos\frac{\theta}{2}\sigma_x+\sin\frac{\theta}{2}\sigma_y$.
@@ -214,6 +219,8 @@ And $\det \\begin{pmatrix}
         0&e^{i\\frac{\\theta}{2}}
 \\end{pmatrix}=+1$.
 
+> **Spoiler:** they are $SU(2)$ matrices. Let's try to justify it.
+
 We start assuming that rotating a Pauli-vector can be done with a double-sided transformation with matrices $A, B$: $V\rightarrow AVB$. Then we can figure out what $A, B$ look like from the properties of the Pauli vector. Since the Pauli vector is hermitian, the resulting Pauli vector after the transformation should also be hermitian $AVB=(AVB)^\dagger$. This gives us:
 
 \\begin{align*}
@@ -287,6 +294,8 @@ $$
     x+yi&-z
 \\end{bmatrix}[SU(2)]^\dagger
 $$
+
+Ugh! Too many computation!
 
 And we know that all $SU(2)$ matrices look like, $$A=\\begin{bmatrix}
     \\alpha&-\\beta^\*\\\ \\beta&\\alpha^\*
