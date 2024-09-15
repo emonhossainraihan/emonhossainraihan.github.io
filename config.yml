@@ -1,4 +1,4 @@
-baseURL: "https://pascalmichaillat.org/hugo-website/" 
+baseURL: "https://pascalmichaillat.org/hugo-website/"
 title: Emon Hossain
 paginate: 20
 theme: PaperMod
@@ -7,113 +7,107 @@ enableInlineShortcodes: true
 enableRobotsTXT: true
 
 taxonomies:
-    tag: tags
+  tag: tags
 
 menu:
-    main:
-        - name: Books
-          url: books/
-          weight: 1 
-        - name: Papers
-          url: papers/
-          weight: 2
-        - name: Teaching
-          url: teaching/
-          weight: 3
-        - name: Data
-          url: data/
-          weight: 4 
-        - name: Blog
-          url: https://medium.com/@emonhossainraihan
-          weight: 5
+  main:
+    - name: Books
+      url: books/
+      weight: 1
+    - name: Papers
+      url: papers/
+      weight: 2
+    - name: Teaching
+      url: teaching/
+      weight: 3
+    - name: Blog
+      url: blog/
+      weight: 4
 
 params:
-    description: "I am a Professor of Philology at the Institute of Romance Philology in Regensburg, Germany. My research focuses mostly on Portuguese irregular verbs.
-consequat."
-    author: Emon Hossain
-    # googleAnalyticsID: "G-XXXXX"
-    DateFormat: "January 2006"
-    defaultTheme: light
-    hideFooter: false
-    disableThemeToggle: true
-    ShowShareButtons: false
-    ShowReadingTime: false
-    disableSpecial1stPost: true
-    disableAnchoredHeadings: true
-    ShowPostNavLinks: false
-    ShowBreadCrumbs: false
-    ShowCodeCopyButtons: true
-    ShowRssButtonInSectionTermList: false
-    ShowToc: false
-    disableScrollToTop: true
-    TocOpen: true
-    ShowWordCount: false
-    UseHugoToc: true
-    comments: false
-    math: true
-    profileMode:
-          enabled: true
-          title: Emon Hossain
-          subtitle: "Assalamualykum! I am Emon Hossain. As a passionate graduate student in Mathematics, I explore the beauty of nature through the lens of mathematics. My love for programming and deep learning, coupled with my interests in differential geometry, algebraic geometry, theoretical physics, and technology, drives my research goals. I am a highly motivated individual who strives to contribute to the scientific community through novel research ideas and projects. Besides, I am an adjunct Lecturer at BRAC University where I am teaching MAT216: Linear Algebra & Fourier Analysis this summer."
-          imageUrl: "picture.jpeg"
-          imageWidth: 160
-          imageHeight: 160
-          imageTitle: Emon Hossain
-          buttons:
-            - name: Books
-              url: books/
-            - name: Papers
-              url: papers/
-            - name: Teaching
-              url: teaching/
-            - name: Data
-              url: data/
-            - name: Tags
-              url: tags/
-            - name: Archive
-              url: archive/
-            - name: Blog
-              url: https://medium.com/@emonhossainraihan
-            - name: About
-              url: about/ 
+  description: "I am an adjunct lecturer of Mathematics at Brac University in Dhaka, Bangladesh. My research focuses mostly on Geometry and Algebra."
+  author: Emon Hossain
+  # googleAnalyticsID: "G-XXXXX"
+  DateFormat: "January 2006"
+  defaultTheme: light
+  hideFooter: false
+  disableThemeToggle: true
+  ShowShareButtons: false
+  ShowReadingTime: false
+  disableSpecial1stPost: true
+  disableAnchoredHeadings: true
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: false
+  ShowToc: false
+  disableScrollToTop: true
+  TocOpen: true
+  ShowWordCount: false
+  UseHugoToc: true
+  comments: false
+  math: true
+  profileMode:
+    enabled: true
+    title: Emon Hossain
+    subtitle: "Assalamualykum! I am Emon Hossain. As a passionate graduate student in Mathematics, I explore the beauty of nature through the lens of mathematics. My love for programming and deep learning, coupled with my interests in differential geometry, algebraic geometry, theoretical physics, and technology, drives my research goals. I am a highly motivated individual who strives to contribute to the scientific community through novel research ideas and projects. Besides, I am an adjunct Lecturer at BRAC University where I am teaching MAT216: Linear Algebra & Fourier Analysis this summer."
+    imageUrl: "picture.jpeg"
+    imageWidth: 160
+    imageHeight: 160
+    imageTitle: Emon Hossain
+    buttons:
+      - name: Books
+        url: books/
+      - name: Papers
+        url: papers/
+      - name: Teaching
+        url: teaching/
+      - name: Blog
+        url: blog/
+      - name: Tags
+        url: tags/
+      - name: Archive
+        url: archive/
+      - name: About
+        url: about/
 
-    socialIcons:
-        - name: Email
-          url: mailto:mdemon7475@gmail.com
-        - name: CV
-          url: cv.pdf
-        - name: Google Scholar
-          url: https://scholar.google.com/citations?user=H81ncQcAAAAJ
-        - name: Location
-          url: location/
-        - name: Office Hours
-          url: officehours/
-        - name: GitHub
-          url: https://github.com/emonhossainraihan
-        - name: YouTube
-          url: https://www.youtube.com/@emonhossainraihan
-        - name: Twitter
-          url: #
+  socialIcons:
+    - name: Email
+      url: mailto:mdemon7475@gmail.com
+    - name: CV
+      url: cv.pdf
+    - name: Google Scholar
+      url: https://scholar.google.com/citations?user=H81ncQcAAAAJ
+    - name: Location
+      url: location/
+    - name: Office Hours
+      url: officehours/
+    - name: GitHub
+      url: https://github.com/emonhossainraihan
+    - name: YouTube
+      url: https://www.youtube.com/@emonhossainraihan
+    - name: Blog
+      url: https://medium.com/@emonhossainraihan
 
-    assets:
-        disableHLJS: true
-        disableScrollBarStyle: true
-    cover:
-        hiddenInList: false
-        hiddenInSingle: true
-    label:
-      text: "Emon Hossain"
-      icon: favicon.ico
-      iconHeight: 18
+  assets:
+    disableHLJS: true
+    disableScrollBarStyle: true
+  cover:
+    hiddenInList: false
+    hiddenInSingle: true
+  label:
+    text: "Emon Hossain"
+    icon: favicon.ico
+    iconHeight: 18
 
 markup:
-    goldmark:
-        renderer:
-            unsafe: true
-    highlight:
-        guessSyntax: true
-        style: autumn 
-    tableOfContents:
-        endLevel: 2
-        ordered: false
-        startLevel: 2
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    guessSyntax: true
+    style: autumn
+  tableOfContents:
+    endLevel: 2
+    ordered: false
+    startLevel: 2
