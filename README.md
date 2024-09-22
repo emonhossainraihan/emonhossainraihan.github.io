@@ -8,3 +8,5 @@ define `layout>partials>math.html` + `https://tuedsci.github.io/blog/hugo-katex/
 
 - Progress in server mode `hugo server`
 - Generate `hugo`
+
+For decoration check [markdown-cheatsheet](https://github.com/im-luka/markdown-cheatsheet?tab=readme-ov-file#footnote).
