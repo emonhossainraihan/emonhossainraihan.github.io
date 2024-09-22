@@ -12,7 +12,7 @@ cover:
   relative: false
 editPost:
   URL: "#"
-  Text: "Course portal"
+  Text: "Course portal:#"
 showToc: true
 disableAnchoredHeadings: false
 ---
@@ -45,7 +45,7 @@ In this course, we will learn:
 
 ### For more details check [this](MAT216_outline.pdf).
 
-##### Extra content which I covered in this course:
+## Extra content which I covered in this course:
 
 - Application of Fourier Transfomation to denoising sound wave https://github.com/emonhossainraihan/MAT216_BracU/blob/main/demo.ipynb
 - Why $\exp(M)$ give us the solution of a system of ODE:
