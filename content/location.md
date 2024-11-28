@@ -19,7 +19,7 @@ Merul Badda, Dhaka-1212, Bangladesh
 
 #### Office address
 
-Room #
+Desk number T264, 4th floor, MNS department
 
 BRAC University
 

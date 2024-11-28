@@ -16,5 +16,14 @@
       <description>it&amp;#39;s me!</description>
     </item>
     
+    <item>
+      <title>Tech</title>
+      <link>https://pascalmichaillat.org/hugo-website/tech/</link>
+      <pubDate>Thu, 30 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://pascalmichaillat.org/hugo-website/tech/</guid>
+      <description>My tech skill</description>
+    </item>
+    
   </channel>
 </rss>

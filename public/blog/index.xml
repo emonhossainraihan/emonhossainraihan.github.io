@@ -8,6 +8,15 @@
     <language>en</language>
     <lastBuildDate>Sun, 15 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://pascalmichaillat.org/hugo-website/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Functors Gone Wild: A Playful Guide to the Yoneda Lemma</title>
+      <link>https://pascalmichaillat.org/hugo-website/blog/yoneda_lemma/</link>
+      <pubDate>Sun, 15 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://pascalmichaillat.org/hugo-website/blog/yoneda_lemma/</guid>
+      <description>Explore the Yoneda Lemma with a playful twist!</description>
+    </item>
+    
+    <item>
       <title>What is Spinor?</title>
       <link>https://pascalmichaillat.org/hugo-website/blog/spinors/</link>
       <pubDate>Sun, 15 Sep 2024 00:00:00 +0000</pubDate>

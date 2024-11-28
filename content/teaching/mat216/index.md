@@ -83,4 +83,6 @@ In this course, we will learn:
 
 If you need formula-tree which I illustrate in the class then check chapter 11+12 of my lecture notes or [Fourier Series](FS.PNG), [Fourier Transform](FT.PNG).
 
+Discord server: [MAT216 Summer24](https://discord.gg/h4RsfdVJJK).
+
 ---

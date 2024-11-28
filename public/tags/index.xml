@@ -8,6 +8,15 @@
     <language>en</language>
     <lastBuildDate>Sun, 15 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://pascalmichaillat.org/hugo-website/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Category-Theory</title>
+      <link>https://pascalmichaillat.org/hugo-website/tags/category-theory/</link>
+      <pubDate>Sun, 15 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://pascalmichaillat.org/hugo-website/tags/category-theory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Mathematical-Physics</title>
       <link>https://pascalmichaillat.org/hugo-website/tags/mathematical-physics/</link>
       <pubDate>Sun, 15 Sep 2024 00:00:00 +0000</pubDate>
@@ -22,6 +31,15 @@
       <pubDate>Sun, 15 Sep 2024 00:00:00 +0000</pubDate>
       
       <guid>https://pascalmichaillat.org/hugo-website/tags/spinor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yoneda-Lemma</title>
+      <link>https://pascalmichaillat.org/hugo-website/tags/yoneda-lemma/</link>
+      <pubDate>Sun, 15 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://pascalmichaillat.org/hugo-website/tags/yoneda-lemma/</guid>
       <description></description>
     </item>
     
@@ -67,6 +85,15 @@
       <pubDate>Thu, 30 May 2024 00:00:00 +0000</pubDate>
       
       <guid>https://pascalmichaillat.org/hugo-website/tags/teaching/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tech</title>
+      <link>https://pascalmichaillat.org/hugo-website/tags/tech/</link>
+      <pubDate>Thu, 30 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://pascalmichaillat.org/hugo-website/tags/tech/</guid>
       <description></description>
     </item>
     

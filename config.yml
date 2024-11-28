@@ -66,8 +66,10 @@ params:
         url: blog/
       - name: Tags
         url: tags/
-      - name: Archive
-        url: archive/
+      # - name: Archive
+      #   url: archive/
+      - name: Tech-mood
+        url: tech/
       - name: About
         url: about/
 

@@ -1,4 +1,4 @@
 ---
-title: "MAT216 Summer"
+title: "Brac University - Courses"
 description: "Courses conducted for BRAC University"
 ---
