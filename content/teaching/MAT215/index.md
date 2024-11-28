@@ -1,6 +1,6 @@
 ---
 title: "MAT215: Complex Variables and Laplace Transformation"
-date: 2024-11-30
+date: 2024-10-28
 tags: ["Complex Analysis", "Laplace Transformation", "Teaching"]
 author: "Emon Hossain"
 description: "In this course, we will understand complex analysis"

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Encryption on Emon Hossain</title>
-    <link>https://pascalmichaillat.org/hugo-website/tags/encryption/</link>
+    <link>http://localhost:1313/hugo-website/tags/encryption/</link>
     <description>Recent content in Encryption on Emon Hossain</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 17 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://pascalmichaillat.org/hugo-website/tags/encryption/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 17 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/hugo-website/tags/encryption/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A review of cryptosystems based on multi layer chaotic mappings</title>
-      <link>https://pascalmichaillat.org/hugo-website/papers/paper1/</link>
+      <link>http://localhost:1313/hugo-website/papers/paper1/</link>
       <pubDate>Sun, 17 Jul 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://pascalmichaillat.org/hugo-website/papers/paper1/</guid>
+      <guid>http://localhost:1313/hugo-website/papers/paper1/</guid>
       <description>We review such cryptosystems by using a cryptosystem of our design, in which confusion in plaintext is created using Arnold’s Cat Map, and logistic mapping is employed to create sufficient dispersion and ultimately get a matching ciphertext. We also address the development of key exchange protocols and secret key schemes for these cryptosystems, as well as the possible outcomes of using cryptanalysis techniques on such a system.</description>
     </item>
     
