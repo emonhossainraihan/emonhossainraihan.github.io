@@ -6,7 +6,16 @@
     <description>Recent content in Teaching on Emon Hossain</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 30 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://pascalmichaillat.org/hugo-website/tags/teaching/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 30 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://pascalmichaillat.org/hugo-website/tags/teaching/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MAT215: Complex Variables and Laplace Transformation</title>
+      <link>https://pascalmichaillat.org/hugo-website/teaching/mat215/</link>
+      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://pascalmichaillat.org/hugo-website/teaching/mat215/</guid>
+      <description>In this course, we will understand complex analysis</description>
+    </item>
+    
     <item>
       <title>MAT216: Linear Algebra and Fourier Analysis</title>
       <link>https://pascalmichaillat.org/hugo-website/teaching/mat216/</link>
