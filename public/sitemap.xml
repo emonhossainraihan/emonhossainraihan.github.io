@@ -2,95 +2,95 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://pascalmichaillat.org/hugo-website/teaching/</loc>
+    <loc>http://localhost:1313/hugo-website/teaching/</loc>
     <lastmod>2024-10-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pascalmichaillat.org/hugo-website/tags/complex-analysis/</loc>
+    <loc>http://localhost:1313/hugo-website/tags/complex-analysis/</loc>
     <lastmod>2024-10-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pascalmichaillat.org/hugo-website/</loc>
+    <loc>http://localhost:1313/hugo-website/</loc>
     <lastmod>2024-10-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pascalmichaillat.org/hugo-website/tags/laplace-transformation/</loc>
+    <loc>http://localhost:1313/hugo-website/tags/laplace-transformation/</loc>
     <lastmod>2024-10-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pascalmichaillat.org/hugo-website/teaching/mat215/</loc>
+    <loc>http://localhost:1313/hugo-website/teaching/mat215/</loc>
     <lastmod>2024-10-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pascalmichaillat.org/hugo-website/tags/</loc>
+    <loc>http://localhost:1313/hugo-website/tags/</loc>
     <lastmod>2024-10-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pascalmichaillat.org/hugo-website/tags/teaching/</loc>
+    <loc>http://localhost:1313/hugo-website/tags/teaching/</loc>
     <lastmod>2024-10-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pascalmichaillat.org/hugo-website/tags/category-theory/</loc>
+    <loc>http://localhost:1313/hugo-website/tags/category-theory/</loc>
     <lastmod>2024-09-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pascalmichaillat.org/hugo-website/blog/</loc>
+    <loc>http://localhost:1313/hugo-website/blog/</loc>
     <lastmod>2024-09-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pascalmichaillat.org/hugo-website/blog/yoneda_lemma/</loc>
+    <loc>http://localhost:1313/hugo-website/blog/yoneda_lemma/</loc>
     <lastmod>2024-09-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pascalmichaillat.org/hugo-website/tags/mathematical-physics/</loc>
+    <loc>http://localhost:1313/hugo-website/tags/mathematical-physics/</loc>
     <lastmod>2024-09-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pascalmichaillat.org/hugo-website/tags/spinor/</loc>
+    <loc>http://localhost:1313/hugo-website/tags/spinor/</loc>
     <lastmod>2024-09-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pascalmichaillat.org/hugo-website/blog/spinors/</loc>
+    <loc>http://localhost:1313/hugo-website/blog/spinors/</loc>
     <lastmod>2024-09-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pascalmichaillat.org/hugo-website/tags/yoneda-lemma/</loc>
+    <loc>http://localhost:1313/hugo-website/tags/yoneda-lemma/</loc>
     <lastmod>2024-09-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pascalmichaillat.org/hugo-website/about/</loc>
+    <loc>http://localhost:1313/hugo-website/about/</loc>
     <lastmod>2024-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pascalmichaillat.org/hugo-website/tags/about/</loc>
+    <loc>http://localhost:1313/hugo-website/tags/about/</loc>
     <lastmod>2024-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pascalmichaillat.org/hugo-website/tags/emon-hossain/</loc>
+    <loc>http://localhost:1313/hugo-website/tags/emon-hossain/</loc>
     <lastmod>2024-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pascalmichaillat.org/hugo-website/tags/fourier-analysis/</loc>
+    <loc>http://localhost:1313/hugo-website/tags/fourier-analysis/</loc>
     <lastmod>2024-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pascalmichaillat.org/hugo-website/tags/linear-algebra/</loc>
+    <loc>http://localhost:1313/hugo-website/tags/linear-algebra/</loc>
     <lastmod>2024-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pascalmichaillat.org/hugo-website/teaching/mat216/</loc>
+    <loc>http://localhost:1313/hugo-website/teaching/mat216/</loc>
     <lastmod>2024-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pascalmichaillat.org/hugo-website/tags/tech/</loc>
+    <loc>http://localhost:1313/hugo-website/tags/tech/</loc>
     <lastmod>2024-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pascalmichaillat.org/hugo-website/tech/</loc>
+    <loc>http://localhost:1313/hugo-website/tech/</loc>
     <lastmod>2024-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pascalmichaillat.org/hugo-website/location/</loc>
+    <loc>http://localhost:1313/hugo-website/location/</loc>
     <lastmod>2024-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pascalmichaillat.org/hugo-website/officehours/</loc>
+    <loc>http://localhost:1313/hugo-website/officehours/</loc>
     <lastmod>2024-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pascalmichaillat.org/hugo-website/papers/paper1/</loc>
+    <loc>http://localhost:1313/hugo-website/papers/paper1/</loc>
     <lastmod>2024-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pascalmichaillat.org/hugo-website/tags/chaotic-map/</loc>
+    <loc>http://localhost:1313/hugo-website/tags/chaotic-map/</loc>
     <lastmod>2024-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pascalmichaillat.org/hugo-website/tags/cryptography/</loc>
+    <loc>http://localhost:1313/hugo-website/tags/cryptography/</loc>
     <lastmod>2024-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pascalmichaillat.org/hugo-website/tags/encryption/</loc>
+    <loc>http://localhost:1313/hugo-website/tags/encryption/</loc>
     <lastmod>2024-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pascalmichaillat.org/hugo-website/papers/</loc>
+    <loc>http://localhost:1313/hugo-website/papers/</loc>
     <lastmod>2024-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pascalmichaillat.org/hugo-website/archive/</loc>
+    <loc>http://localhost:1313/hugo-website/archive/</loc>
   </url><url>
-    <loc>https://pascalmichaillat.org/hugo-website/books/</loc>
+    <loc>http://localhost:1313/hugo-website/books/</loc>
   </url>
 </urlset>

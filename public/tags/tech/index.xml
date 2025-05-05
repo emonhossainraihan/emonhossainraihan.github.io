@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tech on Emon Hossain</title>
-    <link>https://pascalmichaillat.org/hugo-website/tags/tech/</link>
+    <link>http://localhost:1313/hugo-website/tags/tech/</link>
     <description>Recent content in Tech on Emon Hossain</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 30 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://pascalmichaillat.org/hugo-website/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 30 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/hugo-website/tags/tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tech</title>
-      <link>https://pascalmichaillat.org/hugo-website/tech/</link>
+      <link>http://localhost:1313/hugo-website/tech/</link>
       <pubDate>Thu, 30 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://pascalmichaillat.org/hugo-website/tech/</guid>
+      <guid>http://localhost:1313/hugo-website/tech/</guid>
       <description>My tech skill</description>
     </item>
     
