@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head><script src="/hugo-website/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=hugo-website/livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
+<meta name="robots" content="index, follow">
 <title>Functors Gone Wild: A Playful Guide to the Yoneda Lemma | Emon Hossain</title>
 <meta name="keywords" content="Yoneda-Lemma, Category-Theory">
 <meta name="description" content="Explore the Yoneda Lemma with a playful twist!">
 <meta name="author" content="Emon Hossain">
-<link rel="canonical" href="http://localhost:1313/hugo-website/blog/yoneda_lemma/">
-<link crossorigin="anonymous" href="/hugo-website/assets/css/stylesheet.ba1d931b8d3f8d2a69e875b94ec1b6a0ac7dff69e1208957e39c19b9b7fc8d45.css" integrity="sha256-uh2TG40/jSpp6HW5TsG2oKx9/2nhIIlX45wZubf8jUU=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/hugo-website/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/hugo-website/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/hugo-website/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/hugo-website/apple-touch-icon.png">
+<link rel="canonical" href="https://pascalmichaillat.org/hugo-website/blog/yoneda_lemma/">
+<link crossorigin="anonymous" href="/hugo-website/assets/css/stylesheet.6d8c01ae5e660457a0873b147c7a0b2c0176e10c7feabf35f6a205006260597c.css" integrity="sha256-bYwBrl5mBFeghzsUfHoLLAF24Qx/6r819qIFAGJgWXw=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://pascalmichaillat.org/hugo-website/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://pascalmichaillat.org/hugo-website/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://pascalmichaillat.org/hugo-website/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://pascalmichaillat.org/hugo-website/apple-touch-icon.png">
 
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/hugo-website/blog/yoneda_lemma/">
+<link rel="alternate" hreflang="en" href="https://pascalmichaillat.org/hugo-website/blog/yoneda_lemma/">
 <noscript>
     <style>
         #theme-toggle,
@@ -30,13 +30,13 @@
 </noscript><meta property="og:title" content="Functors Gone Wild: A Playful Guide to the Yoneda Lemma" />
 <meta property="og:description" content="Explore the Yoneda Lemma with a playful twist!" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/hugo-website/blog/yoneda_lemma/" />
-<meta property="og:image" content="http://localhost:1313/hugo-website/Yoneda_Lemma.jpg" /><meta property="article:section" content="blog" />
+<meta property="og:url" content="https://pascalmichaillat.org/hugo-website/blog/yoneda_lemma/" />
+<meta property="og:image" content="https://pascalmichaillat.org/hugo-website/Yoneda_Lemma.jpg" /><meta property="article:section" content="blog" />
 <meta property="article:published_time" content="2024-09-15T00:00:00+00:00" />
 <meta property="article:modified_time" content="2024-09-15T00:00:00+00:00" />
 
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="http://localhost:1313/hugo-website/Yoneda_Lemma.jpg" />
+<meta name="twitter:image" content="https://pascalmichaillat.org/hugo-website/Yoneda_Lemma.jpg" />
 <meta name="twitter:title" content="Functors Gone Wild: A Playful Guide to the Yoneda Lemma"/>
 <meta name="twitter:description" content="Explore the Yoneda Lemma with a playful twist!"/>
 
@@ -50,13 +50,13 @@
       "@type": "ListItem",
       "position":  1 ,
       "name": "Data",
-      "item": "http://localhost:1313/hugo-website/blog/"
+      "item": "https://pascalmichaillat.org/hugo-website/blog/"
     }, 
     {
       "@type": "ListItem",
       "position":  2 ,
       "name": "Functors Gone Wild: A Playful Guide to the Yoneda Lemma",
-      "item": "http://localhost:1313/hugo-website/blog/yoneda_lemma/"
+      "item": "https://pascalmichaillat.org/hugo-website/blog/yoneda_lemma/"
     }
   ]
 }
@@ -74,7 +74,7 @@
   "articleBody": "Ah, Yoneda’s Lemma! It’s like the Swiss army knife of category theory—versatile, a little hard to open at first, but once you figure it out, you’ll never leave home without it. So, grab your favorite beverage, maybe even your favorite arrow (just don’t point it at me), and let’s dive into this categorical adventure.\nFirst, let’s set up the main players in our drama:\nIf $\\alpha$ is a natural transformation from the Hom-functor $\\mathcal{C}(A,-):\\mathcal{C}\\rightarrow\\operatorname{Set}$ to the Hom-functor $\\mathcal{C}(B,-):\\mathcal{C}\\rightarrow\\operatorname{Set}$, then for any $\\mathcal{C}$-arrow $j: X \\to Y$, the following diagram commutes like a finely-tuned jazz band:\n$$ \\begin{tikzcd} \\mathcal{C}(A, X) \\arrow[d, “\\alpha_X”] \\arrow[r, “\\mathcal{C}(A,j)”] \u0026 \\mathcal{C}(A,Y) \\arrow[d, “\\alpha_Y”] \\\\ \\mathcal{C}(B,X) \\arrow[r, “\\mathcal{C}(B,j)”] \u0026 \\mathcal{C}(B,Y) \\end{tikzcd} $$\nTranslation: no matter which path you take, everything lands where it’s supposed to. This is categorical Zen.\nNow, if you really want to see how things act in this setup, let’s introduce an arrow $f: B \\to A$. With $f$ in play, you get:\n$$ \\begin{tikzcd} B \\arrow[d, “f”] \u0026 g: A \\to X \\arrow[rr, “j \\circ -”] \\arrow[d, “- \\circ f”] \u0026 \u0026 j \\circ g: A \\to Y \\arrow[d, “- \\circ f”] \\ A \u0026 g \\circ f: B \\to X \\arrow[rr, “j \\circ -”] \u0026 \u0026 j \\circ g \\circ f: B \\to Y \\end{tikzcd} $$\nIn other words, for a small category $\\mathcal{C}$, we get a natural transformation $\\mathcal{C}(f,-): \\mathcal{C}(A,-) \\Rightarrow \\mathcal{C}(B,-)$, defined component-wise as follows: $\\mathcal{C}(f,-)_X$ takes an arrow $g: A \\to X$ and gives you $g \\circ f: B \\to X$. Simple enough, right?\nBut wait—can we go backward? If we start with a natural transformation $\\alpha: \\mathcal{C}(A,-) \\Rightarrow \\mathcal{C}(B,-)$, can we reverse engineer it to find an arrow $f: B \\to A$? Spoiler alert: Yes, we can! The magic arrow is $f = \\alpha_A(1_A)$.\nVoilà! Let’s redraw the commutative diagrams, but now with the mighty $f = 1_A$:\n$$ \\begin{tikzcd} B \\arrow[d, “f”] \u0026 1_A: A \\to A \\arrow[rr, “j \\circ -”] \\arrow[d, “\\alpha_A(1_A) = - \\circ f”] \u0026 \u0026 j \\circ 1_A: A \\to Y \\arrow[d, “\\alpha_Y(j) = - \\circ f”] \\ A \u0026 1_A \\circ f: B \\to A \\arrow[rr, “j \\circ -”] \u0026 \u0026 j \\circ f: B \\to Y \\end{tikzcd} $$\nSo, now we see:\n$$(\\alpha_A(1_A), -)_Y(j) = \\alpha_Y(j)$$\nfor all objects $X$ and all arrows $j: A \\to X$. All the components of $\\alpha$ and $\\mathcal{C}(\\alpha_A(1_A),-)$ match up perfectly. Great! We’ve proved the existence of such an $f$.\nBut what is $\\mathcal{C}(\\alpha_A(1_A),-)$? Let’s recap:\nThe Restricted Yoneda Lemma: Theorem: For any locally small category $\\mathcal{C}$ and objects $A$ and $B$, there is a correspondence between arrows $f: B \\to A$ and natural transformations $\\mathcal{C}(f,-): \\mathcal{C}(A,-) \\Rightarrow \\mathcal{C}(B,-)$.\nYou just saw the restricted version of the Yoneda Lemma. But we’re not done yet! Oh no, dear reader, we’ve barely scratched the surface. It’s time to bring out the big guns: isomorphisms!\nTheorem: For any locally small category $\\mathcal{C}$ and objects $A, B$:\n$$ \\operatorname{Nat}(\\mathcal{C}(A,-),\\mathcal{C}(B,-)) \\cong \\mathcal{C}(B,A) $$\nSo, we have a function $\\Psi_{AB}$ that takes an arrow $f: B \\to A$ and gives us a natural transformation $\\mathcal{C}(f,-)$. And in the reverse direction, we have a function $\\tilde{\\Psi}_{AB}$ that takes a natural transformation $\\alpha$ and gives us an arrow $f = \\alpha_A(1_A)$.\nBut wait, there’s more! This setup is so neat that the two functions, when composed, give us back what we started with. That’s right—$(\\tilde{\\Psi}{AB} \\circ \\Psi{AB})f = f$ and $(\\Psi_{AB} \\circ \\tilde{\\Psi}_{AB})\\alpha = \\alpha$.\nYoneda Embedding: Theorem: For any locally small category $\\mathcal{C}$, there is a contravariant functor $\\Psi: \\mathcal{C} \\to \\operatorname{Set}^{\\mathcal{C}}$, which:\nSends objects $A$ to $\\mathcal{C}(A,-)$, Sends arrows $f: B \\to A$ to $\\mathcal{C}(f,-): \\mathcal{C}(A,-) \\Rightarrow \\mathcal{C}(B,-)$. What does this mean? Essentially, $\\mathcal{C}$ is chilling inside the functor category $\\operatorname{Set}^{\\mathcal{C}}$, like some sort of mathematical Inception—it’s a category, within a category, within a…well, you get the idea.\nAnd if you’re still with me (which I hope you are), let’s take it up one more notch.\nYoneda Lemma (Fully Generalized): For any functor $F: \\mathcal{C} \\to \\operatorname{Set}$ and any object $A \\in \\mathcal{C}$, there is an isomorphism: $\\operatorname{Nat}(\\mathcal{C}(A,-), F) \\cong FA$ both naturally in $A$ and naturally in $F.\nAnd there you have it! The Yoneda Lemma in all its glory. So next time someone asks, “What’s the big deal with this Yoneda guy?” you can calmly sip your coffee, adjust your glasses, and say, “Let me show you a commutative diagram…”\nTadahhh! 🥳\n",
   "wordCount" : "733",
   "inLanguage": "en",
-  "image":"http://localhost:1313/hugo-website/Yoneda_Lemma.jpg","datePublished": "2024-09-15T00:00:00Z",
+  "image":"https://pascalmichaillat.org/hugo-website/Yoneda_Lemma.jpg","datePublished": "2024-09-15T00:00:00Z",
   "dateModified": "2024-09-15T00:00:00Z",
   "author":[{
     "@type": "Person",
@@ -82,14 +82,14 @@
   }],
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "http://localhost:1313/hugo-website/blog/yoneda_lemma/"
+    "@id": "https://pascalmichaillat.org/hugo-website/blog/yoneda_lemma/"
   },
   "publisher": {
     "@type": "Organization",
     "name": "Emon Hossain",
     "logo": {
       "@type": "ImageObject",
-      "url": "http://localhost:1313/hugo-website/favicon.ico"
+      "url": "https://pascalmichaillat.org/hugo-website/favicon.ico"
     }
   }
 }
@@ -157,9 +157,9 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/hugo-website/" accesskey="h" title="Emon Hossain">
+            <a href="https://pascalmichaillat.org/hugo-website/" accesskey="h" title="Emon Hossain">
              
-                <img src="http://localhost:1313/hugo-website/favicon.ico" alt="" aria-label="logo"
+                <img src="https://pascalmichaillat.org/hugo-website/favicon.ico" alt="" aria-label="logo"
                     height="18"
                     width="18">Emon Hossain</a>
             <div class="logo-switches">
@@ -167,22 +167,22 @@
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:1313/hugo-website/books/" title="Books">
+                <a href="https://pascalmichaillat.org/hugo-website/books/" title="Books">
                     <span>Books</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/hugo-website/papers/" title="Papers">
+                <a href="https://pascalmichaillat.org/hugo-website/papers/" title="Papers">
                     <span>Papers</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/hugo-website/teaching/" title="Teaching">
+                <a href="https://pascalmichaillat.org/hugo-website/teaching/" title="Teaching">
                     <span>Teaching</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/hugo-website/blog/" title="Blog">
+                <a href="https://pascalmichaillat.org/hugo-website/blog/" title="Blog">
                     <span>Blog</span>
                 </a>
             </li>
@@ -251,15 +251,13 @@ for all objects $X$ and all arrows $j: A \to X$. All the components of $\alpha$ 
 <p>But what is $\mathcal{C}(\alpha_A(1_A),-)$? Let’s recap:</p>
 <h3 id="the-restricted-yoneda-lemma">The Restricted Yoneda Lemma:<a hidden class="anchor" aria-hidden="true" href="#the-restricted-yoneda-lemma">#</a></h3>
 <blockquote>
-<p><strong>Theorem</strong>: For any locally small category $\mathcal{C}$ and objects $A$ and $B$, there is a correspondence between arrows $f: B \to A$ and natural transformations $\mathcal{C}(f,-): \mathcal{C}(A,-) \Rightarrow \mathcal{C}(B,-)$.</p>
-</blockquote>
+<p><strong>Theorem</strong>: For any locally small category $\mathcal{C}$ and objects $A$ and $B$, there is a correspondence between arrows $f: B \to A$ and natural transformations $\mathcal{C}(f,-): \mathcal{C}(A,-) \Rightarrow \mathcal{C}(B,-)$.</p></blockquote>
 <p>You just saw the restricted version of the Yoneda Lemma. But we’re not done yet! Oh no, dear reader, we’ve barely scratched the surface. It’s time to bring out the big guns: <strong>isomorphisms</strong>!</p>
 <blockquote>
 <p><strong>Theorem</strong>: For any locally small category $\mathcal{C}$ and objects $A, B$:</p>
 <p>$$
 \operatorname{Nat}(\mathcal{C}(A,-),\mathcal{C}(B,-)) \cong \mathcal{C}(B,A)
-$$</p>
-</blockquote>
+$$</p></blockquote>
 <p>So, we have a function $\Psi_{AB}$ that takes an arrow $f: B \to A$ and gives us a natural transformation $\mathcal{C}(f,-)$. And in the reverse direction, we have a function $\tilde{\Psi}_{AB}$ that takes a natural transformation $\alpha$ and gives us an arrow $f = \alpha_A(1_A)$.</p>
 <p>But wait, there’s more! This setup is so neat that the two functions, when composed, give us back what we started with. That’s right—$(\tilde{\Psi}<em>{AB} \circ \Psi</em>{AB})f = f$ and $(\Psi_{AB} \circ \tilde{\Psi}_{AB})\alpha = \alpha$.</p>
 <h3 id="yoneda-embedding">Yoneda Embedding:<a hidden class="anchor" aria-hidden="true" href="#yoneda-embedding">#</a></h3>
@@ -268,8 +266,7 @@ $$</p>
 <ol>
 <li>Sends objects $A$ to $\mathcal{C}(A,-)$,</li>
 <li>Sends arrows $f: B \to A$ to $\mathcal{C}(f,-): \mathcal{C}(A,-) \Rightarrow \mathcal{C}(B,-)$.</li>
-</ol>
-</blockquote>
+</ol></blockquote>
 <p>What does this mean? Essentially, $\mathcal{C}$ is chilling inside the functor category $\operatorname{Set}^{\mathcal{C}}$, like some sort of mathematical Inception—it&rsquo;s a category, within a category, within a…well, you get the idea.</p>
 <p>And if you’re still with me (which I hope you are), let’s take it up one more notch.</p>
 <h3 id="yoneda-lemma-fully-generalized">Yoneda Lemma (Fully Generalized):<a hidden class="anchor" aria-hidden="true" href="#yoneda-lemma-fully-generalized">#</a></h3>
@@ -282,14 +279,14 @@ $$</p>
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="http://localhost:1313/hugo-website/tags/yoneda-lemma/">Yoneda-Lemma</a></li>
-      <li><a href="http://localhost:1313/hugo-website/tags/category-theory/">Category-Theory</a></li>
+      <li><a href="https://pascalmichaillat.org/hugo-website/tags/yoneda-lemma/">Yoneda-Lemma</a></li>
+      <li><a href="https://pascalmichaillat.org/hugo-website/tags/category-theory/">Category-Theory</a></li>
     </ul>
   </footer>
 </article>
     </main>
     
-<footer class="footer"> &copy; 2024 Emon Hossain
+<footer class="footer"> &copy; 2025 Emon Hossain
   
 </footer>
 
