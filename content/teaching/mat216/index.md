@@ -85,4 +85,5 @@ If you need formula-tree which I illustrate in the class then check chapter 11+1
 
 Discord server: [MAT216 Summer24](https://discord.gg/h4RsfdVJJK).
 
+I also take MAT216 in the Spring-2025. 
 ---
