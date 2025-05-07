@@ -23,16 +23,19 @@ First, let’s set up the main players in our drama:
 
 If $\alpha$ is a natural transformation from the Hom-functor $\mathcal{C}(A,-):\mathcal{C}\rightarrow\operatorname{Set}$ to the Hom-functor $\mathcal{C}(B,-):\mathcal{C}\rightarrow\operatorname{Set}$, then for any $\mathcal{C}$-arrow $j: X \to Y$, the following diagram commutes like a finely-tuned jazz band:
 
-$$
+<!-- $$
 \\begin{tikzcd}
 \\mathcal{C}(A, X) \\arrow[d, "\\alpha_X"] \\arrow[r, "\\mathcal{C}(A,j)"] & \\mathcal{C}(A,Y) \\arrow[d, "\\alpha_Y"] \\\
 \\mathcal{C}(B,X) \\arrow[r, "\\mathcal{C}(B,j)"] & \\mathcal{C}(B,Y)
 \\end{tikzcd}
-$$
+$$ -->
+
+![](yoneda_01.png)
 
 ![](Yoneda_Lemma.jpg)
 
-<p align="center"><img src="yoneda1.png" /></p>
+<img src="Yoneda_Lemma.jpg" />
+
 
 Translation: no matter which path you take, everything lands where it's supposed to. This is categorical Zen.
 
