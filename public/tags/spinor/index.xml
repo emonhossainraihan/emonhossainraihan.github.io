@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Spinor on Emon Hossain</title>
-    <link>http://localhost:1313/hugo-website/tags/spinor/</link>
+    <link>https://pascalmichaillat.org/hugo-website/tags/spinor/</link>
     <description>Recent content in Spinor on Emon Hossain</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 15 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/hugo-website/tags/spinor/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 15 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://pascalmichaillat.org/hugo-website/tags/spinor/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What is Spinor?</title>
-      <link>http://localhost:1313/hugo-website/blog/spinors/</link>
+      <link>https://pascalmichaillat.org/hugo-website/blog/spinors/</link>
       <pubDate>Sun, 15 Sep 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/hugo-website/blog/spinors/</guid>
+      <guid>https://pascalmichaillat.org/hugo-website/blog/spinors/</guid>
       <description>nobody understands quantum mechanics - feynman</description>
     </item>
     

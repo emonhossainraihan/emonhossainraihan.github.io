@@ -1,6 +1,9 @@
 baseURL: "https://pascalmichaillat.org/hugo-website/"
 title: Emon Hossain
-paginate: 20
+pagination:
+  disableAliases: false
+  pagerSize: 2
+  path: page
 theme: PaperMod
 
 enableInlineShortcodes: true

@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Emon Hossain</title>
-    <link>http://localhost:1313/hugo-website/tags/emon-hossain/</link>
+    <link>https://pascalmichaillat.org/hugo-website/tags/emon-hossain/</link>
     <description>Recent content on Emon Hossain</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 30 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/hugo-website/tags/emon-hossain/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 30 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://pascalmichaillat.org/hugo-website/tags/emon-hossain/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>http://localhost:1313/hugo-website/about/</link>
+      <link>https://pascalmichaillat.org/hugo-website/about/</link>
       <pubDate>Thu, 30 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/hugo-website/about/</guid>
+      <guid>https://pascalmichaillat.org/hugo-website/about/</guid>
       <description>it&amp;#39;s me!</description>
     </item>
     
     <item>
       <title>Tech</title>
-      <link>http://localhost:1313/hugo-website/tech/</link>
+      <link>https://pascalmichaillat.org/hugo-website/tech/</link>
       <pubDate>Thu, 30 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/hugo-website/tech/</guid>
+      <guid>https://pascalmichaillat.org/hugo-website/tech/</guid>
       <description>My tech skill</description>
     </item>
     

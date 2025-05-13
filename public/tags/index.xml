@@ -2,143 +2,143 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Emon Hossain</title>
-    <link>http://localhost:1313/hugo-website/tags/</link>
+    <link>https://pascalmichaillat.org/hugo-website/tags/</link>
     <description>Recent content in Tags on Emon Hossain</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 28 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/hugo-website/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://pascalmichaillat.org/hugo-website/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Complex Analysis</title>
-      <link>http://localhost:1313/hugo-website/tags/complex-analysis/</link>
+      <link>https://pascalmichaillat.org/hugo-website/tags/complex-analysis/</link>
       <pubDate>Mon, 28 Oct 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/hugo-website/tags/complex-analysis/</guid>
+      <guid>https://pascalmichaillat.org/hugo-website/tags/complex-analysis/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Laplace Transformation</title>
-      <link>http://localhost:1313/hugo-website/tags/laplace-transformation/</link>
+      <link>https://pascalmichaillat.org/hugo-website/tags/laplace-transformation/</link>
       <pubDate>Mon, 28 Oct 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/hugo-website/tags/laplace-transformation/</guid>
+      <guid>https://pascalmichaillat.org/hugo-website/tags/laplace-transformation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Teaching</title>
-      <link>http://localhost:1313/hugo-website/tags/teaching/</link>
+      <link>https://pascalmichaillat.org/hugo-website/tags/teaching/</link>
       <pubDate>Mon, 28 Oct 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/hugo-website/tags/teaching/</guid>
+      <guid>https://pascalmichaillat.org/hugo-website/tags/teaching/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Category-Theory</title>
-      <link>http://localhost:1313/hugo-website/tags/category-theory/</link>
+      <link>https://pascalmichaillat.org/hugo-website/tags/category-theory/</link>
       <pubDate>Sun, 15 Sep 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/hugo-website/tags/category-theory/</guid>
+      <guid>https://pascalmichaillat.org/hugo-website/tags/category-theory/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mathematical-Physics</title>
-      <link>http://localhost:1313/hugo-website/tags/mathematical-physics/</link>
+      <link>https://pascalmichaillat.org/hugo-website/tags/mathematical-physics/</link>
       <pubDate>Sun, 15 Sep 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/hugo-website/tags/mathematical-physics/</guid>
+      <guid>https://pascalmichaillat.org/hugo-website/tags/mathematical-physics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Spinor</title>
-      <link>http://localhost:1313/hugo-website/tags/spinor/</link>
+      <link>https://pascalmichaillat.org/hugo-website/tags/spinor/</link>
       <pubDate>Sun, 15 Sep 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/hugo-website/tags/spinor/</guid>
+      <guid>https://pascalmichaillat.org/hugo-website/tags/spinor/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Yoneda-Lemma</title>
-      <link>http://localhost:1313/hugo-website/tags/yoneda-lemma/</link>
+      <link>https://pascalmichaillat.org/hugo-website/tags/yoneda-lemma/</link>
       <pubDate>Sun, 15 Sep 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/hugo-website/tags/yoneda-lemma/</guid>
+      <guid>https://pascalmichaillat.org/hugo-website/tags/yoneda-lemma/</guid>
       <description></description>
     </item>
     
     <item>
       <title>About</title>
-      <link>http://localhost:1313/hugo-website/tags/about/</link>
+      <link>https://pascalmichaillat.org/hugo-website/tags/about/</link>
       <pubDate>Thu, 30 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/hugo-website/tags/about/</guid>
+      <guid>https://pascalmichaillat.org/hugo-website/tags/about/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Emon Hossain</title>
-      <link>http://localhost:1313/hugo-website/tags/emon-hossain/</link>
+      <link>https://pascalmichaillat.org/hugo-website/tags/emon-hossain/</link>
       <pubDate>Thu, 30 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/hugo-website/tags/emon-hossain/</guid>
+      <guid>https://pascalmichaillat.org/hugo-website/tags/emon-hossain/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Fourier Analysis</title>
-      <link>http://localhost:1313/hugo-website/tags/fourier-analysis/</link>
+      <link>https://pascalmichaillat.org/hugo-website/tags/fourier-analysis/</link>
       <pubDate>Thu, 30 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/hugo-website/tags/fourier-analysis/</guid>
+      <guid>https://pascalmichaillat.org/hugo-website/tags/fourier-analysis/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Linear Algebra</title>
-      <link>http://localhost:1313/hugo-website/tags/linear-algebra/</link>
+      <link>https://pascalmichaillat.org/hugo-website/tags/linear-algebra/</link>
       <pubDate>Thu, 30 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/hugo-website/tags/linear-algebra/</guid>
+      <guid>https://pascalmichaillat.org/hugo-website/tags/linear-algebra/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tech</title>
-      <link>http://localhost:1313/hugo-website/tags/tech/</link>
+      <link>https://pascalmichaillat.org/hugo-website/tags/tech/</link>
       <pubDate>Thu, 30 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/hugo-website/tags/tech/</guid>
+      <guid>https://pascalmichaillat.org/hugo-website/tags/tech/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Chaotic Map</title>
-      <link>http://localhost:1313/hugo-website/tags/chaotic-map/</link>
+      <link>https://pascalmichaillat.org/hugo-website/tags/chaotic-map/</link>
       <pubDate>Sun, 17 Jul 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/hugo-website/tags/chaotic-map/</guid>
+      <guid>https://pascalmichaillat.org/hugo-website/tags/chaotic-map/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cryptography</title>
-      <link>http://localhost:1313/hugo-website/tags/cryptography/</link>
+      <link>https://pascalmichaillat.org/hugo-website/tags/cryptography/</link>
       <pubDate>Sun, 17 Jul 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/hugo-website/tags/cryptography/</guid>
+      <guid>https://pascalmichaillat.org/hugo-website/tags/cryptography/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Encryption</title>
-      <link>http://localhost:1313/hugo-website/tags/encryption/</link>
+      <link>https://pascalmichaillat.org/hugo-website/tags/encryption/</link>
       <pubDate>Sun, 17 Jul 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/hugo-website/tags/encryption/</guid>
+      <guid>https://pascalmichaillat.org/hugo-website/tags/encryption/</guid>
       <description></description>
     </item>
     
