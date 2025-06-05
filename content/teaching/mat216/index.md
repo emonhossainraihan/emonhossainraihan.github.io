@@ -36,10 +36,10 @@ In this course, we will learn:
 <!-- <details> -->
 <summary><b>Final</b></summary>
 
-- Eigenvalue and eigenvector of a linear transformation.
-- Diagonalization, <del>Inner Product, Gram-Schmidt Process </del>
+- Eigenvalue and eigenvector of a linear transformation
+- Diagonalization, Inner Product, Gram-Schmidt Process
 - Fourier Series (Periodic function, Fourier series, Half Range Fourier Sine and Cosine Series), Complex Notation for Fourier Series
-- Fourier Transformations, Fourier Sine and Cosine Transformations.
+- Fourier Transformations, Fourier Sine and Cosine Transformations
 
 <!-- </details> -->
 
@@ -58,31 +58,46 @@ In this course, we will learn:
 ## Lecture notes
 
 - [Lecture Note](MAT216_Lecture_Notes.pdf)
-
+- [Live version](https://www.overleaf.com/read/rxjqsvjzwspr#80b08c)
 ## Materials
 
+### For summer 2024 
 <!-- <details> -->
 <summary><b>Midterm</b></summary>
 
-- [Assignment 01](assignment01.pdf)
-- [Quiz 01](quiz01.pdf)
-- [Quiz 01 Solution](quiz01_sol.pdf)
-- [Practice problems for Midterm](Midterm_Practice.pdf)
+- [Assignment 01](summer24/assignment01.pdf)
+- [Quiz 01](summer24/quiz01.pdf)
+- [Quiz 01 Solution](summer24/quiz01_sol.pdf)
+- [Practice problems for Midterm](summer24/Midterm_Practice.pdf)
 
-<!-- </details> -->
-
-<!-- <details> -->
 <summary><b>Final</b></summary>
 
-- [Assignment 02](Assignment02.pdf)
+- [Assignment 02](summer24/Assignment02.pdf)
 - [Quiz 02]()
 - [Quiz 02 Solution]()
-- [Practice problems for Final](Final_Practice.pdf)
+- [Practice problems for Final](summer24/Final_Practice.pdf)
 
-<!-- </details> -->
 
-If you need formula-tree which I illustrate in the class then check chapter 11+12 of my lecture notes or [Fourier Series](FS.PNG), [Fourier Transform](FT.PNG).
+Discord server: [MAT216 Summer-24](https://discord.gg/h4RsfdVJJK).
 
-Discord server: [MAT216 Summer24](https://discord.gg/h4RsfdVJJK).
+### For spring 2025
+
+<summary><b>Midterm</b></summary>
+
+- [Assignment 01](spring25/assignment01.pdf)
+- [Quiz-01 with solution](spring25/quiz01.pdf)
+- [Practice problems for Midterm](spring25/midterm_suggestion.pdf)
+- [Assignment 02](spring25/assignment02.pdf)
+
+<summary><b>Final</b></summary>
+
+- [Assignment 03](spring25/assignment03.pdf)
+- [Quiz-02 with solution](spring25/quiz02.pdf)
+- [Practice problems for Final](spring25/final_suggestion.pdf)
+
+Discord server: [MAT216 Spring-25](https://discord.gg/ZHffHnqknR).
+
+
+If you need formula-tree which I illustrate in the class then check chapter 11+12 of my lecture notes.
 
 ---
