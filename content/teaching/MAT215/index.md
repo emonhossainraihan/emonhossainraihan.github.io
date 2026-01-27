@@ -39,6 +39,29 @@ In this course, we will learn:
 
 <!-- </details> -->
 
+# Complex part (slides)
+
+- [Lecture-1](./slides/Lecture-01.pdf)
+- [Lecture-2](./slides/Lecture-02.pdf)
+- [Lecture-3](./slides/Lecture-03.pdf)
+- [Lecture-4](./slides/Lecture-04.pdf)
+- [Lecture-5](./slides/Lecture-05.pdf)
+- [Lecture-6](./slides/Lecture-06.pdf)
+- [Lecture-7](./slides/Lecture-07.pdf)
+- [Lecture-8](./slides/Lecture-08.pdf)
+- [Lecture-9](./slides/Lecture-09.pdf)
+
+#  Integral part (slides)
+
+- [Lecture-1](./slides/Integral_L-01.pdf)
+- [Lecture-2](./slides/Integral_L-02.pdf)
+
+# Laplace part (slides) 
+
+- [Lecture-1](./slides/Integral_L-01.pdf)
+- [Lecture-2](./slides/Integral_L-02.pdf)
+- [Lecture-5](./slides/Integral_L-05.pdf)
+
 ### For more details check [this](MAT216_outline.pdf).
 
 ## Extra content which I covered in this course:

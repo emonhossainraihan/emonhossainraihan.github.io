@@ -2,89 +2,89 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Emon Hossain</title>
-    <link>https://pascalmichaillat.org/hugo-website/</link>
+    <link>http://localhost:1313/hugo-website/</link>
     <description>Recent content on Emon Hossain</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 28 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://pascalmichaillat.org/hugo-website/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/hugo-website/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MAT215: Complex Variables and Laplace Transformation</title>
-      <link>https://pascalmichaillat.org/hugo-website/teaching/mat215/</link>
+      <link>http://localhost:1313/hugo-website/teaching/mat215/</link>
       <pubDate>Mon, 28 Oct 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://pascalmichaillat.org/hugo-website/teaching/mat215/</guid>
+      <guid>http://localhost:1313/hugo-website/teaching/mat215/</guid>
       <description>In this course, we will understand complex analysis</description>
     </item>
     
     <item>
       <title>Functors Gone Wild: A Playful Guide to the Yoneda Lemma</title>
-      <link>https://pascalmichaillat.org/hugo-website/blog/yoneda_lemma/</link>
+      <link>http://localhost:1313/hugo-website/blog/yoneda_lemma/</link>
       <pubDate>Sun, 15 Sep 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://pascalmichaillat.org/hugo-website/blog/yoneda_lemma/</guid>
+      <guid>http://localhost:1313/hugo-website/blog/yoneda_lemma/</guid>
       <description>Explore the Yoneda Lemma with a playful twist!</description>
     </item>
     
     <item>
       <title>What is Spinor?</title>
-      <link>https://pascalmichaillat.org/hugo-website/blog/spinors/</link>
+      <link>http://localhost:1313/hugo-website/blog/spinors/</link>
       <pubDate>Sun, 15 Sep 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://pascalmichaillat.org/hugo-website/blog/spinors/</guid>
+      <guid>http://localhost:1313/hugo-website/blog/spinors/</guid>
       <description>nobody understands quantum mechanics - feynman</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>https://pascalmichaillat.org/hugo-website/about/</link>
+      <link>http://localhost:1313/hugo-website/about/</link>
       <pubDate>Thu, 30 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://pascalmichaillat.org/hugo-website/about/</guid>
+      <guid>http://localhost:1313/hugo-website/about/</guid>
       <description>it&amp;#39;s me!</description>
     </item>
     
     <item>
       <title>MAT216: Linear Algebra and Fourier Analysis</title>
-      <link>https://pascalmichaillat.org/hugo-website/teaching/mat216/</link>
+      <link>http://localhost:1313/hugo-website/teaching/mat216/</link>
       <pubDate>Thu, 30 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://pascalmichaillat.org/hugo-website/teaching/mat216/</guid>
+      <guid>http://localhost:1313/hugo-website/teaching/mat216/</guid>
       <description>In this course, we will learn how to solve system of linear equations, What is vector space?, Four fundamental subspaces, Linear Transformation and finally eigenvalue-eigenvector</description>
     </item>
     
     <item>
       <title>Tech</title>
-      <link>https://pascalmichaillat.org/hugo-website/tech/</link>
+      <link>http://localhost:1313/hugo-website/tech/</link>
       <pubDate>Thu, 30 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://pascalmichaillat.org/hugo-website/tech/</guid>
+      <guid>http://localhost:1313/hugo-website/tech/</guid>
       <description>My tech skill</description>
     </item>
     
     <item>
       <title>Location</title>
-      <link>https://pascalmichaillat.org/hugo-website/location/</link>
+      <link>http://localhost:1313/hugo-website/location/</link>
       <pubDate>Wed, 08 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://pascalmichaillat.org/hugo-website/location/</guid>
+      <guid>http://localhost:1313/hugo-website/location/</guid>
       <description>Professor Dr von Igelfeld&amp;#39;s mailing and office addresses at the Institute of Romance Philology.</description>
     </item>
     
     <item>
       <title>Office Hours</title>
-      <link>https://pascalmichaillat.org/hugo-website/officehours/</link>
+      <link>http://localhost:1313/hugo-website/officehours/</link>
       <pubDate>Wed, 08 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://pascalmichaillat.org/hugo-website/officehours/</guid>
+      <guid>http://localhost:1313/hugo-website/officehours/</guid>
       <description>Schedule and location</description>
     </item>
     
     <item>
       <title>A review of cryptosystems based on multi layer chaotic mappings</title>
-      <link>https://pascalmichaillat.org/hugo-website/papers/paper1/</link>
+      <link>http://localhost:1313/hugo-website/papers/paper1/</link>
       <pubDate>Sun, 17 Jul 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://pascalmichaillat.org/hugo-website/papers/paper1/</guid>
+      <guid>http://localhost:1313/hugo-website/papers/paper1/</guid>
       <description>We review such cryptosystems by using a cryptosystem of our design, in which confusion in plaintext is created using Arnold’s Cat Map, and logistic mapping is employed to create sufficient dispersion and ultimately get a matching ciphertext. We also address the development of key exchange protocols and secret key schemes for these cryptosystems, as well as the possible outcomes of using cryptanalysis techniques on such a system.</description>
     </item>
     
