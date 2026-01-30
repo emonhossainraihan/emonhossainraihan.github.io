@@ -70,16 +70,15 @@ In this course, we will learn:
 
 ## Lecture notes
 
-- [Lecture Note](https://www.overleaf.com/read/zwpgdssvttpk#d3ea5a)
+- [Lecture Note](./main.pdf)
 
 ## Materials
 
 <!-- <details> -->
 <summary><b>Midterm</b></summary>
 
-- [Assignment 01](Assignment-01.pdf)
-- [Quiz 01](Quiz-01.pdf)
-- [Quiz 01 Solution]()
+- [Assignment 01](./fall-25/A-01.pdf)
+- [Quiz 01](./fall-25/Quiz-01.pdf)
 - [Practice problems for Midterm with solution](Practicesheet_Mid.pdf)
 
 <!-- </details> -->
@@ -87,13 +86,13 @@ In this course, we will learn:
 <!-- <details> -->
 <summary><b>Final</b></summary>
 
-- [Assignment 02]()
-- [Quiz 02]()
-- [Quiz 02 Solution]()
-- [Practice problems for Final]()
+- [Assignment 02](./fall-25/A-02.pdf)
+- [Quiz 02](./fall-25/Quiz-02.pdf)
+- [Quiz 02](./fall-25/Quiz-03.pdf)
+- [Quiz 02](./fall-25/Quiz-04.pdf)
 
 <!-- </details> -->
 
-Discord server: [MAT215 Fall24](https://discord.gg/H6WtFSHksV).
+Discord server: [MAT215 Fall24](https://discord.gg/H6WtFSHksV), [MAT215 Fall25](), [MAT215 Spring26](https://discord.gg/75Qr8veW56).
 
 ---
