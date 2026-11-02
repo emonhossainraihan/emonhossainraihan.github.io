@@ -155,7 +155,7 @@
 {{- partial "analytics.html" . }}
 {{ end }}
 
-{{ if or .Page.Params.math .Site.Params.math }}
+{{ if .Param "math" }}
 {{- partial "math.html" .}}
 {{ end }} 
 

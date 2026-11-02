@@ -1,5 +1,5 @@
 ---
-title: "Tags"
-description: "Topics covered and methods used in my research papers and courses."
+title: "Topics"
+description: "Explore the ideas in my research, teaching, and mathematical notes."
 layout: "terms"
 ---

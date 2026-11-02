@@ -13,10 +13,9 @@
 {{- print " dark" }}
 {{- end -}}
 " id="top">
-    {{- if not .IsHome  }}
-    {{- partialCached "header.html" . .Page -}}
-    {{- end }}
-    <main class="main">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    {{- partial "header.html" . -}}
+    <main class="main{{ if .IsHome }} home-main{{ end }}" id="main-content">
         {{- block "main" . }}{{ end }}
     </main>
     {{ partialCached "footer.html" . .Layout .Kind (.Param "hideFooter") (.Param "ShowCodeCopyButtons") -}}

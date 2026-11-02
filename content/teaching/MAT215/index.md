@@ -3,96 +3,61 @@ title: "MAT215: Complex Variables and Laplace Transformation"
 date: 2024-10-28
 tags: ["Complex Analysis", "Laplace Transformation", "Teaching"]
 author: "Emon Hossain"
-description: "In this course, we will understand complex analysis"
-summary: "In this course I try to connect Complex Analysis with its geometrical perspective."
+description: "Complex analysis through geometric intuition, with lecture slides, notes, and practice materials."
+summary: "Complex analysis, complex integration, and Laplace transforms through a geometric lens."
 cover:
   image: "complex_C.png"
   alt: "Complex Variables and Laplace Transformation"
-  relative: false
-editPost:
-  URL: "#"
-  Text: "Course portal:#"
+  relative: true
 showToc: true
 disableAnchoredHeadings: false
 ---
 
-## Course Outline
+A geometric introduction to complex variables, complex integration, and Laplace transforms. Materials below include lecture notes and resources from previous semesters.
 
-In this course, we will learn:
+## Course outline
 
-<!-- <details> -->
-<summary><b>Midterm</b></summary>
+**Before the midterm**
 
-- The underlying vector space are isomorphic $\mathbb{R}^2\cong\mathbb{C}$, then how Complex plane is different than $R^2$?
-- Understanding the Complex variable
-- General Functions of a Complex variable
-- Limit and Continuity in Complex variable
-- Differentiability, harmonic and Analytic function
-<!-- </details> -->
+- The relationship between the vector spaces $\mathbb{R}^2$ and $\mathbb{C}$, and what makes the complex plane different
+- Complex variables and functions
+- Limits and continuity
+- Complex differentiability, harmonic functions, and analytic functions
 
-<!-- <details> -->
-<summary><b>Final</b></summary>
+**After the midterm**
 
-- Line integral
-- Integration in Complex variable
-- Laplace Transformation
-
-<!-- </details> -->
-
-# Complex part (slides)
-
-- [Lecture-1](./slides/Lecture-01.pdf)
-- [Lecture-2](./slides/Lecture-02.pdf)
-- [Lecture-3](./slides/Lecture-03.pdf)
-- [Lecture-4](./slides/Lecture-04.pdf)
-- [Lecture-5](./slides/Lecture-05.pdf)
-- [Lecture-6](./slides/Lecture-06.pdf)
-- [Lecture-7](./slides/Lecture-07.pdf)
-- [Lecture-8](./slides/Lecture-08.pdf)
-- [Lecture-9](./slides/Lecture-09.pdf)
-
-#  Integral part (slides)
-
-- [Lecture-1](./slides/Integral_L-01.pdf)
-- [Lecture-2](./slides/Integral_L-02.pdf)
-
-# Laplace part (slides) 
-
-- [Lecture-1](./slides/Integral_L-01.pdf)
-- [Lecture-2](./slides/Integral_L-02.pdf)
-- [Lecture-5](./slides/Integral_L-05.pdf)
-
-### For more details check [this](MAT216_outline.pdf).
-
-## Extra content which I covered in this course:
-
-- Differentiability in higher dimensions and how to interpret differentiability in complex planes, [YouTube video](https://www.youtube.com/watch?v=e9X3zvyuvhk).
+- Line integrals and complex integration
+- Laplace transforms
 
 ## Lecture notes
 
-- [Lecture Note](./main.pdf)
+- [Complete lecture notes](main.pdf)
+- [Differentiability in higher dimensions and in the complex plane — video](https://www.youtube.com/watch?v=e9X3zvyuvhk)
 
-## Materials
+## Lecture slides
 
-<!-- <details> -->
-<summary><b>Midterm</b></summary>
+### Complex variables
 
-- [Assignment 01](./fall-25/A-01.pdf)
-- [Quiz 01](./fall-25/Quiz-01.pdf)
-- [Practice problems for Midterm with solution](Practicesheet_Mid.pdf)
+[Lecture 1](slides/Lecture-01.pdf) · [Lecture 2](slides/Lecture-02.pdf) · [Lecture 3](slides/Lecture-03.pdf) · [Lecture 4](slides/Lecture-04.pdf) · [Lecture 6](slides/Lecture-06.pdf) · [Lecture 7](slides/Lecture-07.pdf) · [Lecture 8](slides/Lecture-08.pdf) · [Lecture 9](slides/Lecture-09.pdf)
 
-<!-- </details> -->
+### Integration
 
-<!-- <details> -->
-<summary><b>Final</b></summary>
+[Lecture 1](slides/Integral_L-01.pdf) · [Lecture 2](slides/Integral_L-02.pdf)
 
-- [Assignment 02](./fall-25/A-02.pdf)
-- [Quiz 02](./fall-25/Quiz-02.pdf)
-- [Quiz 02](./fall-25/Quiz-03.pdf)
-- [Quiz 02](./fall-25/Quiz-04.pdf)
+### Laplace transforms
 
-<!-- </details> -->
+[Lecture 1](slides/Laplace_L-01.pdf) · [Lecture 2](slides/Laplace_L-02.pdf) · [Lecture 5](slides/Laplace_L-05.pdf)
 
-Discord server: [MAT215 Fall24](https://discord.gg/H6WtFSHksV), [MAT215 Fall25](), [MAT215 Spring26](https://discord.gg/75Qr8veW56).
+## Fall 2025 materials
 
----
+| Assessment | Material |
+| --- | --- |
+| Before the midterm | [Assignment 1](fall-25/A-01.pdf) · [Quiz 1](fall-25/Quiz-01.pdf) |
+| Midterm preparation | [Practice problems with solutions](Practicesheet_Mid.pdf) |
+| After the midterm | [Assignment 2](fall-25/A-02.pdf) · [Quiz 2](fall-25/Quiz-02.pdf) · [Quiz 3](fall-25/Quiz-03.pdf) · [Quiz 4](fall-25/Quiz-04.pdf) |
+
+## Course communities
+
+[Fall 2024 Discord](https://discord.gg/H6WtFSHksV) · [Spring 2026 Discord](https://discord.gg/75Qr8veW56)
+
+For access to other course communities, please [email me](mailto:mdemon7475@gmail.com).

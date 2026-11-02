@@ -1,0 +1,14 @@
+role: Lecturer in Mathematics
+institution: BRAC University
+location: Dhaka, Bangladesh
+intro: "My interests lie in geometry, algebra, and the connections between mathematics and computation."
+welcome: "Here you’ll find my teaching materials, research, and notes on the mathematics I’m exploring."
+portrait: picture.jpeg
+email: mdemon7475@gmail.com
+scholar: https://scholar.google.com/citations?user=H81ncQcAAAAJ
+github: https://github.com/emonhossainraihan
+interests:
+  - Differential geometry
+  - Algebraic geometry
+  - Mathematical physics
+  - Computational mathematics

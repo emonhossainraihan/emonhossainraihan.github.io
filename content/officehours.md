@@ -1,26 +1,13 @@
 ---
-title: "Office Hours"
-lastmod: 2024-05-08
+title: "Office hours"
 hidemeta: true
-description: "Schedule and location"
+description: "Arrange a meeting to discuss coursework or research."
 ---
 
----
+Please [email me](mailto:mdemon7475@gmail.com) to arrange a meeting and confirm the current schedule. Meetings usually take place in my [office](/location/); a virtual meeting on Zoom is also possible on request.
 
-#### Schedule
+The previously listed schedule was Saturday and Thursday, 9:30 AM–7:30 PM, on the 4th floor of the MNS department. Please confirm by email before visiting, as teaching schedules change between semesters.
 
-Office hours take place on Saturday and Thursday at 9:30 AM-7:30 PM, 4th floor, MNS department.
+## Before a research meeting
 
----
-
-#### Location
-
-By default meetings are in my office. I am also available for virtual meetings on Zoom (on request. Please mail in you need in case).
-
----
-
-#### Meeting material
-
-- If we are meeting to discuss research, please send me a written description of the work that you would like to discuss.
-- Presentation slides or paper draft are perfectly fine.
-- If you do not have those, please send a one-page description of the research.
+Send a short written description of the work you would like to discuss. A paper draft, presentation slides, or a one-page outline is helpful.

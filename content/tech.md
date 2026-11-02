@@ -1,10 +1,9 @@
 ---
-title: "Tech"
+title: "Computing"
 date: 2024-05-30
-lastmod: 2024-05-08
 tags: ["Tech", "Emon Hossain"]
 author: "Emon Hossain"
-description: "My tech skill"
+description: "Programming interests, technical skills, and selected web projects."
 ---
 
 I develop web applications, with my core skills rooted in JavaScript. I enjoy accomplishing most tasks using JavaScript. Currently, I am working on integrating deep learning with my research interests, specifically in geometry.
@@ -22,9 +21,9 @@ You can still talk to me about things I am still learning:
 
 - Languages like Python
 - Data structures and algorithms
-- Machine Learning, Neutral Network, Deep Learning, Artificial Intelligence
+- Machine Learning, Neural Networks, Deep Learning, Artificial Intelligence
 
-## Here are my several project which I built during COVID-19:
+## Projects from the COVID-19 period
 
 ### passion4learning
 

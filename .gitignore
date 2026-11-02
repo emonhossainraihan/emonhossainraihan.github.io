@@ -1,2 +1,6 @@
 .DS_Store
 .hugo_build.lock
+# Local verification output
+.hugo-validation/
+.hugo-preview/
+.site-qa/

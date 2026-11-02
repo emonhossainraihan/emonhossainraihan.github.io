@@ -7,12 +7,9 @@ author: ["Emon Hossain"]
 description: "Explore the Yoneda Lemma with a playful twist!"
 summary: "This blog takes you through commutative diagrams, natural transformations, and the Yoneda embedding, all while keeping the math light-hearted and fun."
 cover:
-  image: "Yoneda_Lemma.jpg"
+  image: "/blog/Yoneda_Lemma.jpg"
   alt: "Yoneda Lemma"
   relative: false
-editPost:
-  URL: "https://emonhossainraihan.github.io/"
-  Text: "GitHub repository"
 showToc: true
 disableAnchoredHeadings: false
 ---
@@ -24,38 +21,41 @@ First, let’s set up the main players in our drama:
 If $\alpha$ is a natural transformation from the Hom-functor $\mathcal{C}(A,-):\mathcal{C}\rightarrow\operatorname{Set}$ to the Hom-functor $\mathcal{C}(B,-):\mathcal{C}\rightarrow\operatorname{Set}$, then for any $\mathcal{C}$-arrow $j: X \to Y$, the following diagram commutes like a finely-tuned jazz band:
 
 $$
-\\begin{tikzcd}
-\\mathcal{C}(A, X) \\arrow[d, "\\alpha_X"] \\arrow[r, "\\mathcal{C}(A,j)"] & \\mathcal{C}(A,Y) \\arrow[d, "\\alpha_Y"] \\\
-\\mathcal{C}(B,X) \\arrow[r, "\\mathcal{C}(B,j)"] & \\mathcal{C}(B,Y)
-\\end{tikzcd}
+\begin{CD}
+\mathcal{C}(A,X) @>{\mathcal{C}(A,j)}>> \mathcal{C}(A,Y) \\
+@V{\alpha_X}VV @VV{\alpha_Y}V \\
+\mathcal{C}(B,X) @>>{\mathcal{C}(B,j)}> \mathcal{C}(B,Y)
+\end{CD}
 $$
 
-![](Yoneda_Lemma.jpg)
+![Illustration of the Yoneda lemma](/blog/Yoneda_Lemma.jpg)
 
-<p align="center"><img src="yoneda1.png" /></p>
+![Commutative diagram for the Yoneda lemma](/blog/yoneda1.png)
 
 Translation: no matter which path you take, everything lands where it's supposed to. This is categorical Zen.
 
 Now, if you really want to see how things act in this setup, let’s introduce an arrow $f: B \to A$. With $f$ in play, you get:
 
 $$
-\begin{tikzcd}
-B \arrow[d, "f"] & g: A \to X \arrow[rr, "j \circ -"] \arrow[d, "- \circ f"] & & j \circ g: A \to Y \arrow[d, "- \circ f"] \\
-A & g \circ f: B \to X \arrow[rr, "j \circ -"] & & j \circ g \circ f: B \to Y
-\end{tikzcd}
+\begin{CD}
+g:A\to X @>{j\circ-}>> j\circ g:A\to Y \\
+@V{-\circ f}VV @VV{-\circ f}V \\
+g\circ f:B\to X @>>{j\circ-}> j\circ g\circ f:B\to Y
+\end{CD}
 $$
 
 In other words, for a small category $\mathcal{C}$, we get a natural transformation $\mathcal{C}(f,-): \mathcal{C}(A,-) \Rightarrow \mathcal{C}(B,-)$, defined component-wise as follows: $\mathcal{C}(f,-)_X$ takes an arrow $g: A \to X$ and gives you $g \circ f: B \to X$. Simple enough, right?
 
 But wait—can we go backward? If we start with a natural transformation $\alpha: \mathcal{C}(A,-) \Rightarrow \mathcal{C}(B,-)$, can we reverse engineer it to find an arrow $f: B \to A$? Spoiler alert: Yes, we can! The magic arrow is $f = \alpha_A(1_A)$.
 
-Voilà! Let’s redraw the commutative diagrams, but now with the mighty $f = 1_A$:
+Voilà! Let’s redraw the commutative diagrams, but now starting with the identity arrow $1_A$:
 
 $$
-\begin{tikzcd}
-B \arrow[d, "f"] & 1_A: A \to A \arrow[rr, "j \circ -"] \arrow[d, "\alpha_A(1_A) = - \circ f"] & & j \circ 1_A: A \to Y \arrow[d, "\alpha_Y(j) = - \circ f"] \\
-A & 1_A \circ f: B \to A \arrow[rr, "j \circ -"] & & j \circ f: B \to Y
-\end{tikzcd}
+\begin{CD}
+1_A:A\to A @>{j\circ-}>> j:A\to Y \\
+@V{\alpha_A}VV @VV{\alpha_Y}V \\
+f:B\to A @>>{j\circ-}> j\circ f:B\to Y
+\end{CD}
 $$
 
 So, now we see:  

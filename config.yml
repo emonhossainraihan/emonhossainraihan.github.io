@@ -1,8 +1,10 @@
-baseURL: "https://pascalmichaillat.org/hugo-website/"
+baseURL: "https://emonhossainraihan.github.io/"
 title: Emon Hossain
+languageCode: en
+timeZone: Asia/Dhaka
 pagination:
   disableAliases: false
-  pagerSize: 2
+  pagerSize: 12
   path: page
 theme: PaperMod
 
@@ -14,22 +16,23 @@ taxonomies:
 
 menu:
   main:
-    - name: Books
-      url: books/
-      weight: 1
-    - name: Papers
-      url: papers/
-      weight: 2
     - name: Teaching
       url: teaching/
-      weight: 3
-    - name: Blog
+      weight: 1
+    - name: Research
+      url: papers/
+      weight: 2
+    - name: Notes
       url: blog/
+      weight: 3
+    - name: About
+      url: about/
       weight: 4
 
 params:
-  description: "I am an adjunct lecturer of Mathematics at Brac University in Dhaka, Bangladesh. My research focuses mostly on Geometry and Algebra."
+  description: "Emon Hossain, Lecturer in Mathematics at BRAC University, Dhaka. Research in geometry and algebra, teaching resources, and mathematical notes."
   author: Emon Hossain
+  images: [picture.jpeg]
   # googleAnalyticsID: "G-XXXXX"
   DateFormat: "January 2006"
   defaultTheme: light
@@ -50,32 +53,6 @@ params:
   UseHugoToc: true
   comments: false
   math: true
-  profileMode:
-    enabled: true
-    title: Emon Hossain
-    subtitle: "Assalamualykum! I am Emon Hossain. As a passionate graduate student in Mathematics, I explore the beauty of nature through the lens of mathematics. My love for programming and deep learning, coupled with my interests in differential geometry, algebraic geometry, theoretical physics, and technology, drives my research goals. I am a highly motivated individual who strives to contribute to the scientific community through novel research ideas and projects. Besides, I am an Full-time Lecturer at BRAC University."
-    imageUrl: "picture.jpeg"
-    imageWidth: 160
-    imageHeight: 160
-    imageTitle: Emon Hossain
-    buttons:
-      - name: Books
-        url: books/
-      - name: Papers
-        url: papers/
-      - name: Teaching
-        url: teaching/
-      - name: Blog
-        url: blog/
-      - name: Tags
-        url: tags/
-      # - name: Archive
-      #   url: archive/
-      - name: Tech-mood
-        url: tech/
-      - name: About
-        url: about/
-
   socialIcons:
     - name: Email
       url: mailto:mdemon7475@gmail.com
@@ -95,6 +72,7 @@ params:
       url: https://medium.com/@emonhossainraihan
 
   assets:
+    theme_color: "#fbfaf7"
     disableHLJS: true
     disableScrollBarStyle: true
   cover:
@@ -107,6 +85,24 @@ params:
 
 markup:
   goldmark:
+    extensions:
+      passthrough:
+        enable: true
+        delimiters:
+          block:
+            - ['\[', '\]']
+            - ['$$', '$$']
+            - ['\begin{equation}', '\end{equation}']
+            - ['\begin{equation*}', '\end{equation*}']
+            - ['\begin{align}', '\end{align}']
+            - ['\begin{align*}', '\end{align*}']
+            - ['\begin{gather}', '\end{gather}']
+            - ['\begin{gather*}', '\end{gather*}']
+            - ['\begin{multline}', '\end{multline}']
+            - ['\begin{multline*}', '\end{multline*}']
+          inline:
+            - ['\(', '\)']
+            - ['$', '$']
     renderer:
       unsafe: true
   highlight:
